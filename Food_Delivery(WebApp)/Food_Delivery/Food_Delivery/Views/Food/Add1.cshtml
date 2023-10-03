@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] "Job Page"</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="row align-items-center justify-content-center">
+        <div class="col-2">
+            <form method="post">
+                <label>Фамилия:</label><br />
+                <input type="text" name="LN"/><br />
+                <label>Имя:</label><br />
+                <input type="text" name="FN"/><br />
+                <label>Отчество:</label><br />
+                <input type="text" name="PA"/><br />
+                <label>Дата Рождения:</label><br />
+                <input type="datetime" name="Borth"/><br />
+                <label>Телефон:</label><br />
+                <input type="text" name="Tel"/><br />
+                <label>Серия(Паспорт):</label><br />
+                <input type="text" name="SP"/><br />
+                <label>Номер(Паспорт):</label><br />
+                <input type="text" name="NP"/><br />
+                <label>Кем выдан(Паспорт):</label><br />
+                <input type="text" name="KP"/><br />
+                <label>Подразделение(Паспорт):</label><br />
+                <input type="text" name="PP"/><br />
+                <label>Тип:</label><br />
+                <select name="TY">
+                    <option selected disabled>Выберите тип:</option>
+                    <option value="Пешая">Пешая</option>
+                    <option value="Велосипед">Велосипед</option>
+                    <option value="Автомобиль">Автомобиль</option>
+                </select><br /><br />
+                <button type="submit" class="btn btn-primary btn-lg" asp-area="" asp-controller="Food" asp-action="Add1">Добавить</button>
+            </form>
+        </div>
+        <div class="col-4">
+            <img src="~/img/CurFoto.png" class="img-fluid rounded-start mt-md-auto border-2" alt="...">
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

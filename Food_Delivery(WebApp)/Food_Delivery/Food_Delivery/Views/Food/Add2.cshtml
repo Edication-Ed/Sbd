@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] "Job Page"</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="row align-items-center justify-content-center">
+        <div class="col-2">
+            <form method="post">
+                <label>Фамилия:</label><br />
+                <input type="text" name="LN" /><br />
+                <label>Имя:</label><br />
+                <input type="text" name="FN" /><br />
+                <label>Отчество:</label><br />
+                <input type="text" name="PA" /><br />
+                <label>Телефон:</label><br />
+                <input type="text" name="Tel" /><br />
+                <label>Город:</label><br />
+                <input type="text" name="GR" /><br />
+                <label>Улица:</label><br />
+                <input type="text" name="UL" /><br />
+                <label>Дом:</label><br />
+                <input type="text" name="DO" /><br />
+                <label>Строение:</label><br />
+                <input type="text" name="ST" /><br />
+                <label>Квартира:</label><br />
+                <input type="text" name="KV" /><br /><br />
+                <button type="submit" class="btn btn-primary btn-lg" asp-area="" asp-controller="Food" asp-action="Add2">Добавить</button>
+            </form>
+        </div>
+        <div class="col-4">
+            <img src="~/img/CusIc.png" class="img-fluid rounded-start mt-md-auto border-2" alt="...">
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

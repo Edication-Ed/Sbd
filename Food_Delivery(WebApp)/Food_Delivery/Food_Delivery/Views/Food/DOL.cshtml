@@ -1,0 +1,37 @@
+﻿@model List<DishOrderListView>
+@{
+    ViewData["Title"] = "DishOrderListView";
+}
+<style>
+    .t1 {
+        border: 2px solid black;
+    }
+
+    form {
+        margin-left: 300%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+</style>
+
+<h1>@ViewData["Title"]</h1>
+<table class="t1">
+    <tr class="t1">
+        <td class="t1">№п/п</td>
+        <td class="t1">№ Чека</td>
+        <td class="t1">Наименование</td>
+        <td class="t1">Кол-во</td>
+        <td class="t1"><a class="nav-link text-dark" asp-area="" asp-controller="Car" asp-action="Add">Добавить</a></td>
+    </tr>
+    @foreach (var c in Model)
+    {
+        <tr class="t1">
+            <td class="t1" name="id">@c.IdDishOrderList</td>
+            <td class="t1">@c.IdOrdersFk</td>
+            <td class="t1">@c.DishName</td>
+            <td class="t1">@c.Quantity</td>
+        </tr>
+    }
+</table>

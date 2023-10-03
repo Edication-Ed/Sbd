@@ -1,0 +1,45 @@
+﻿@model List<Curier>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @{ViewData["Title"] = "Курьеры";}
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
+</head>
+<body class="justify-content-center">
+    <h1>@ViewData["Title"]</h1>
+    @foreach (var c in Model)
+    {
+        <div class="card mb-4 container d-flex justify-content-center align-items-center p-0" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4 text-md-center">
+                    <img src="~/img/CurFoto.png" class="img-fluid rounded-start mt-md-auto" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">@c.CurierLastname @c.CurierFirstname @c.CurierPatronymic</h5>
+                        <p class="card-text">Дата Рождения: @c.Birthday</p>
+                        <p class="card-text">Телефон: @c.CurierPhonenumber</p>
+                        <p class="card-text"><b>Паспорт:</b> @c.PassportSeries @c.PassportNumber, @c.PassportIssuedby, @c.PassportDepartment</p>
+                        <p class="card-text">Тип: @c.DeliveryType</p>
+                        <a asp-area="" asp-controller="Food" asp-action="Ed1" asp-route-id="@c.IdCurier">Изменить</a>
+                        <a asp-area="" asp-controller="Food" asp-action="Del1" asp-route-id="@c.IdCurier">Удалить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="d-flex justify-content-center align-items-center">
+        <button class="btn btn-primary btn-lg"><a class="text-decoration-none text-white" asp-area="" asp-controller="Food" asp-action="Add1">Добавить</a></button>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
+
+
+

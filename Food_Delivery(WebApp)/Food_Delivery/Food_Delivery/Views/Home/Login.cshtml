@@ -1,0 +1,32 @@
+﻿
+<html>
+<head>
+
+ <link rel="stylesheet" href="~/css/Style.css" />
+</head>
+
+<body>
+<div class="login">
+  <h1>Login to Web App</h1>
+
+  <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Index" >
+            <p><input type="text" name="username" value="@ViewData["Username"]" placeholder="Username or Email" required></p>
+            <p><input type="password" name="passcode" value="" placeholder="Password" required></p>     
+    <p>
+        <label>
+                <input class="custom-control-input" type="checkbox" name="rememberme" value="true" id="rememberme">
+                Запомнить на этом компьютере
+        </label>
+    </p>
+    <p class="submit"><input type="submit" name="commit" value="Login" asp-area="" asp-controller="Home" asp-action="Login"></p>
+    <hr/>
+  </form>
+     <span>
+         Нет аккаунта?
+         <a class="text-decoration-none" asp-area="" asp-controller="Home" asp-action="Signup">Создайте его!</a>
+     </span>
+            
+
+    </div> 
+</body>
+</html>
