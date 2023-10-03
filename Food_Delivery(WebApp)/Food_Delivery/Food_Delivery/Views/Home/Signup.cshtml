@@ -1,0 +1,29 @@
+﻿@model Auth_Login.Controllers.SignupFaillure
+<html>
+<head>
+
+    <link rel="stylesheet" href="~/css/Style.css" />
+</head>
+
+<body>
+    <div class="login">
+        <h1>Sign up to Web App</h1>
+
+        <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Index">
+            @if (Model.Reason() != "")
+            {
+                <p>@Model.Reason()</p>
+            }
+            <p><input type="text" name="username" value="@Model.Login()" placeholder="Username or Email" required></p>
+            <p><input type="password" name="passcode" value="@Model.Password()" placeholder="Password" required></p>
+            <p><input type="password" name="confirm" value="@Model.Confirmation()" placeholder="Confirm password" required></p>
+            <p class="submit"><input type="submit" name="commit" value="Sign up" asp-area="" asp-controller="Home" asp-action="Signup"></p>
+            <hr />
+        </form>
+        <span>
+            Уже есть аккаунта?
+            <a class="text-decoration-none" asp-area="" asp-controller="Home" asp-action="Login">Войдите в него!</a>
+        </span>
+    </div>
+</body>
+</html>

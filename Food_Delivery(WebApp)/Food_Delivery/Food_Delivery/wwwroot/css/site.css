@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Sans';
+    src: url(/fonts/PT_Sans/PTSans-Regular.ttf);
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  font-family: Sans;
+}
+img {
+    height: 90%;
+}
+
+h1 {
+    text-align: center;
+}
+.btn-primary{
+    background-color: rgb(10,65,136);
+}
+.footer{
+    margin-top: auto
+}

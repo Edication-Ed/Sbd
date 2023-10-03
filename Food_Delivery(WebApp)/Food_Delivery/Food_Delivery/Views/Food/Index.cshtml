@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] "Job Page"</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <h1 class="display-4 text-center">Добро пожаловать!</h1><br />
+    <div class="positoin-absolute text-center " >
+        <select class="form-select form-select-lg mb-3" onchange="window.location.href = this.options[this.selectedIndex].value">
+            <option disabled selected value="Выберите раздел">Выберите раздел</option>
+            <option value="https://localhost:7023/Food/Cur">Курьеры</option>
+            <option value="https://localhost:7023/Food/Cus">Клиенты</option>
+            <option value="https://localhost:7023/Food/DilL">Доставки</option>
+            <option value="https://localhost:7023/Food/Dish">Блюда</option>
+            <option value="https://localhost:7023/Food/DOL">Блюда в чеке</option>
+            <option value="https://localhost:7023/Food/OW"> Чеки</option>
+        </select>
+        <p><img  src="~/img/watermark50.png"/></p>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
