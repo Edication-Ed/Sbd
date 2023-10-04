@@ -1,18 +1,44 @@
-﻿
+﻿@model Auth_Login.Controllers.SignupFaillure
 <html>
 <head>
 
  <link rel="stylesheet" href="~/css/Style.css" />
+<link rel="stylesheet" href="~/lib/jquery/dist/jquery.min.js" asp-append-version="true" />
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+ <script type="text/javascript">
+        $('body').on('click', '.password-control', function () {
+            if ($('#password-input').attr('type') == 'password') {
+                $(this).addClass('view');
+                $('#password-input').attr('type', 'text');
+            } else {
+                $(this).removeClass('view');
+                $('#password-input').attr('type', 'password');
+            }
+            return false;
+        });
+ </script>
+
 </head>
 
 <body>
 <div class="login">
   <h1>Login to Web App</h1>
-
+  
   <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Index" >
-            <p><input type="text" name="username" value="@ViewData["Username"]" placeholder="Username or Email" required></p>
-            <p><input type="password" name="passcode" value="" placeholder="Password" required></p>     
-    <p>
+            @if (Model.Reason() != "")
+            {
+                <p>@Model.Reason()</p>
+            }
+            <p><input type="text" name="username" value="@Model.Login()" placeholder="Введите имя пользователя" required></p>
+            <p class="password">
+                @{
+                // class="pass"><input type="password" name="passcode" value="@Model.Password()" placeholder="Password" required>
+            }
+                    <input type="password" id="password-input" placeholder="Введите пароль" name="passcode" required>
+                    <a href="#" class="password-control"></a>
+            </p>
+            <p>
         <label>
                 <input class="custom-control-input" type="checkbox" name="rememberme" value="true" id="rememberme">
                 Запомнить на этом компьютере
@@ -21,10 +47,10 @@
     <p class="submit"><input type="submit" name="commit" value="Login" asp-area="" asp-controller="Home" asp-action="Login"></p>
     <hr/>
   </form>
-     <span>
+     <p>
          Нет аккаунта?
          <a class="text-decoration-none" asp-area="" asp-controller="Home" asp-action="Signup">Создайте его!</a>
-     </span>
+     </p>
             
 
     </div> 

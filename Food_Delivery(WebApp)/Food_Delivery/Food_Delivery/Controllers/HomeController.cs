@@ -79,13 +79,6 @@ namespace Auth_Login.Controllers
                 ViewData["userData"] = "";
             }
         }
-        
-
-        public IActionResult Check()
-        {
-            user_init();
-            return View(_foodDeliveryContext.Userlogins.ToList());
-        }
 
         static string ComputeSha256Hash(string rawData)
         {
@@ -140,12 +133,11 @@ namespace Auth_Login.Controllers
             if (CookieHave(cookie_loggeduser_id))
                 return RedirectToAction("Index", "Food");
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(passcode))
-                return View();
+                return View(new SignupFaillure());
             var user = await _foodDeliveryContext.Userlogins.FirstOrDefaultAsync(user => user.Username.Equals(username) && user.Passcode.Equals(ComputeSha256Hash(passcode)));
             if (user == null)
             {
-                ViewData["Username"] = username;
-                return View();
+                return View(new SignupFaillure(username, passcode, "", "This login and/or password doesn't exist!"));
             }
             SaveToCookie(cookie_loggeduser_id, user.Id.ToString(), !rememberme);
             SaveToCookie(cookie_loggeduser_passcode, user.Passcode, !rememberme);

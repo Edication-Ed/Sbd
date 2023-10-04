@@ -1,0 +1,17 @@
+﻿.password {
+    position: relative;
+}
+
+.password-control {
+    position: absolute;
+    top: 11px;
+    left: 35%;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(/img/eye-closed.svg) 0 0 no-repeat;
+}
+
+    .password-control.view {
+        background: url(/img/eye.svg) 0 0 no-repeat;
+    }
