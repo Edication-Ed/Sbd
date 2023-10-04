@@ -89,8 +89,8 @@ namespace Food_Delivery.Controllers
         public ActionResult OW()
         {
             user_init(); 
-            List<OrdersView> ordersViews = _foodDeliveryContext.OrdersViews.ToList();
-            return View(ordersViews);
+            List<Order> order = _foodDeliveryContext.Orders.ToList();
+            return View(order);
         }
         public ActionResult Add1()
         {
@@ -114,6 +114,11 @@ namespace Food_Delivery.Controllers
             return View();
         }
         public ActionResult Add5()
+        {
+            user_init();
+            return View();
+        }
+        public ActionResult Add6()
         {
             user_init();
             return View();
@@ -171,6 +176,22 @@ namespace Food_Delivery.Controllers
             _foodDeliveryContext.Add(dish);
             _foodDeliveryContext.SaveChanges();
             return RedirectPermanent("~/Food/Dish");
+        }
+        [HttpPost]
+        public IActionResult Add5(int CH, int NM, int KL)
+        {
+            DishOrderList dishOrderList = new DishOrderList { IdOrdersFk = CH,  IdDishFk= NM, Quantity = KL };
+            _foodDeliveryContext.Add(dishOrderList);
+            _foodDeliveryContext.SaveChanges();
+            return RedirectPermanent("~/Food/DOL");
+        }
+        [HttpPost]
+        public IActionResult Add6(int IP, DateTime DT, int IT)
+        {
+            Order order = new Order {  IdCustomerFk = IP, TimeOrdered = DT, Totalcost = IT };
+            _foodDeliveryContext.Add(order);
+            _foodDeliveryContext.SaveChanges();
+            return RedirectPermanent("~/Food/OW");
         }
         [HttpPost]
         public ActionResult Ed1(int Id, string LN, string FN, string PA, DateTime Borth, string Tel, string SP, string NP, string KP, string PP, string TY)
