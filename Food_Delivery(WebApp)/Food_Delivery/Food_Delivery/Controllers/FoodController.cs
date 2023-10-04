@@ -83,8 +83,8 @@ namespace Food_Delivery.Controllers
         public ActionResult DOL()
         {
             user_init(); 
-            List<DishOrderListView> dishOrderListViews = _foodDeliveryContext.DishOrderListViews.ToList();
-            return View(dishOrderListViews);
+            List<DishOrderList> dishOrderList = _foodDeliveryContext.DishOrderLists.ToList();
+            return View(dishOrderList);
         }
         public ActionResult OW()
         {
@@ -109,6 +109,11 @@ namespace Food_Delivery.Controllers
             return View();
         }
         public ActionResult Add4()
+        {
+            user_init();
+            return View();
+        }
+        public ActionResult Add5()
         {
             user_init();
             return View();

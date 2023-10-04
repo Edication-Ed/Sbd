@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\Food_Delivery.csproj": {}
+    "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\Food_Delivery.csproj": {}
   },
   "projects": {
-    "D:\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\Food_Delivery.csproj": {
+    "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\Food_Delivery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\Food_Delivery.csproj",
+        "projectUniqueName": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\Food_Delivery.csproj",
         "projectName": "Food_Delivery",
-        "projectPath": "D:\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\Food_Delivery.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\",
+        "projectPath": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\Food_Delivery.csproj",
+        "packagesPath": "C:\\Users\\ДНС\\.nuget\\packages\\",
+        "outputPath": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ДНС\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
