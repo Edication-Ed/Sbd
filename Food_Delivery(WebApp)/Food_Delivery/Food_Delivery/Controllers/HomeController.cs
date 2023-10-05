@@ -138,7 +138,20 @@ namespace Auth_Login.Controllers
         public async Task<IActionResult> Login(string username, string passcode, bool rememberme)
         {
             if (CookieHave(cookie_loggeduser_id))
-                return RedirectToAction("Index", "Food");
+            {
+                int id = int.Parse(GetFromCookie(cookie_loggeduser_id));
+                string pass = GetFromCookie(cookie_loggeduser_passcode);
+                var use = _foodDeliveryContext.Userlogins.FirstOrDefault(x => x.Id == id && x.Passcode == pass);
+                if (use == null)
+                    return View();
+                switch (use.Status)
+                {
+                    case 3:
+                        return RedirectToAction("Index", "Food");
+                    case 1:
+                        return RedirectToAction("Index", "User");
+                }
+            }
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(passcode))
                 return View();
             var user = await _foodDeliveryContext.Userlogins.FirstOrDefaultAsync(user => user.Username.Equals(username) && user.Passcode.Equals(ComputeSha256Hash(passcode)));
@@ -149,7 +162,13 @@ namespace Auth_Login.Controllers
             }
             SaveToCookie(cookie_loggeduser_id, user.Id.ToString(), !rememberme);
             SaveToCookie(cookie_loggeduser_passcode, user.Passcode, !rememberme);
-            return RedirectToAction("Index", "Food");
+            switch (user.Status) {
+                case 3:
+                    return RedirectToAction("Index", "Food");
+                case 1:
+                    return RedirectToAction("Index", "User");
+            }
+            return View();
         }
 
         public async Task<IActionResult> signout(string url)
