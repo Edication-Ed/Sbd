@@ -1,32 +1,48 @@
-﻿
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-
- <link rel="stylesheet" href="~/css/Style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] "Job Page"</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
 </head>
-
 <body>
-<div class="login">
-  <h1>Login to Web App</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card my-5">
+                    <form method="post" class="card-body cardbody-color p-lg-5">
 
-  <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Index" >
-            <p><input type="text" name="username" value="@ViewData["Username"]" placeholder="Username or Email" required></p>
-            <p><input type="password" name="passcode" value="" placeholder="Password" required></p>     
-    <p>
-        <label>
-                <input class="custom-control-input" type="checkbox" name="rememberme" value="true" id="rememberme">
-                Запомнить на этом компьютере
-        </label>
-    </p>
-    <p class="submit"><input type="submit" name="commit" value="Login" asp-area="" asp-controller="Home" asp-action="Login"></p>
-    <hr/>
-  </form>
-     <span>
-         Нет аккаунта?
-         <a class="text-decoration-none" asp-area="" asp-controller="Home" asp-action="Signup">Создайте его!</a>
-     </span>
-            
-
-    </div> 
+                        <div class="text-center">
+                            <img src="~/img/Logo1.png" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" width="200px" alt="profile">
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control" type="text" name="username" value="@ViewData["Username"]" placeholder="Username or Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control" type="password" name="passcode" value="" placeholder="Password" required>
+                        </div>
+                        <p>
+                            <label>
+                                <input class="custom-control-input" type="checkbox" name="rememberme" value="true" id="rememberme">
+                                Запомнить на этом компьютере
+                            </label>
+                        </p>
+                        <div class="text-center"><input class="btn btn-color px-5 mb-5 w-100"type="submit" name="commit" value="Войти" asp-area="" asp-controller="Home" asp-action="Login"></div>
+                        <div class="form-text text-center mb-2 text-dark">
+                            Нет аккаунта?  <a class="text-decoration-none" asp-area="" asp-controller="Home" asp-action="Signup">Создайте его!</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
 </body>
 </html>
+
+

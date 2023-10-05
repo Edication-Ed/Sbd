@@ -1,29 +1,48 @@
 ﻿@model Auth_Login.Controllers.SignupFaillure
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-    <link rel="stylesheet" href="~/css/Style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] "Job Page"</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
 </head>
-
 <body>
-    <div class="login">
-        <h1>Sign up to Web App</h1>
-
-        <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Index">
-            @if (Model.Reason() != "")
-            {
-                <p>@Model.Reason()</p>
-            }
-            <p><input type="text" name="username" value="@Model.Login()" placeholder="Username or Email" required></p>
-            <p><input type="password" name="passcode" value="@Model.Password()" placeholder="Password" required></p>
-            <p><input type="password" name="confirm" value="@Model.Confirmation()" placeholder="Confirm password" required></p>
-            <p class="submit"><input type="submit" name="commit" value="Sign up" asp-area="" asp-controller="Home" asp-action="Signup"></p>
-            <hr />
-        </form>
-        <span>
-            Уже есть аккаунта?
-            <a class="text-decoration-none" asp-area="" asp-controller="Home" asp-action="Login">Войдите в него!</a>
-        </span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card my-5">
+                    <form method="post" class="card-body cardbody-color p-lg-5">
+                        @if (Model.Reason() != "")
+                        {
+                            <p>@Model.Reason()</p>
+                        }
+                        <div class="text-center">
+                            <img src="~/img/Logo1.png" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" width="200px" alt="profile">
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control" type="text" name="username" value="@Model.Login()" placeholder="Username or Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control" type="password" name="passcode" value="@Model.Password()" placeholder="Password" required>
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control" type="password" name="confirm" value="@Model.Confirmation()" placeholder="Confirm password" required></p>
+                        </div>
+                        <div class="text-center"><input class="btn btn-color px-5 mb-5 w-100" type="submit" name="commit" value="Зарегистрироваться" asp-area="" asp-controller="Home" asp-action="Signup"></div>
+                        <div class="form-text text-center mb-2 text-dark">
+                            Уже есть аккаунта?
+                            <a class="text-decoration-none" asp-area="" asp-controller="Home" asp-action="Login">Войдите в него!</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
 </body>
 </html>
