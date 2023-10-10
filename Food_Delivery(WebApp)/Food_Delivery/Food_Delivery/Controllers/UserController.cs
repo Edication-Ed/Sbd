@@ -47,7 +47,8 @@ namespace Food_Delivery.Controllers
         public ActionResult Index()
         {
             user_init();
-            return View();
+            List<Dish> ds = _foodDeliveryContext.Dishes.ToList();
+            return View(ds);
         }
     }
 }
