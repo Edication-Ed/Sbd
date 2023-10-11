@@ -1,0 +1,38 @@
+﻿@model List<Deliverylist>
+@{
+    List<String> address = (List<String>)ViewData["Add"];
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @{ViewData["Title"] = "Заказы";}
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
+</head>
+<body class="justify-content-center">
+    <h1>@ViewData["Title"]</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">№ Чека</th>
+                <th scope="col">Адрес</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; ++i)
+            {
+                <tr>
+                    <td>@Model[i].IdOrdersFk</td>
+                    <td>@address[i]</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
