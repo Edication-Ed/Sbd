@@ -7,6 +7,8 @@ public partial class OrdersView
 {
     public int? IdOrders { get; set; }
 
+    public int? IdCustomer { get; set; }
+
     public string? CustomerLastname { get; set; }
 
     public string? CustomerFirstname { get; set; }

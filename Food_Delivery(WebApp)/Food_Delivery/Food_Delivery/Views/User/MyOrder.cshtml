@@ -1,0 +1,41 @@
+﻿@model List<OrdersView>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] "Job Page"</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <h1>Мои заказы</h1>
+    <table class="table text-center">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Врямя</th>
+                <th scope="col">Сумма заказа</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td name="id"><a asp-area="" asp-controller="User" asp-action="Chek" asp-route-id="@c.IdOrders"><label>@c.IdOrders</label></a></td>
+                    <td>@c.TimeOrdered</td>
+                    <td>@c.Totalcost</td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
+
+

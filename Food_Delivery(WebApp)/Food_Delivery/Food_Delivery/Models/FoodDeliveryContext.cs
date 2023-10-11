@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Food_Delivery.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Food_Delivery;
@@ -245,6 +244,7 @@ public partial class FoodDeliveryContext : DbContext
             entity.Property(e => e.CustomerPatronymic)
                 .HasMaxLength(80)
                 .HasColumnName("customer_patronymic");
+            entity.Property(e => e.IdCustomer).HasColumnName("id_customer");
             entity.Property(e => e.IdOrders).HasColumnName("id_orders");
             entity.Property(e => e.TimeOrdered)
                 .HasColumnType("timestamp without time zone")
