@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XZTRAyxkrqZEunWJifFEFdePduZoe6VmQK0AjhWdMsQ=",
+  "Hash": "9ZlYD7CsBzP55uDor6OSSGloUFgtko5jl9S3aAg1BDo=",
   "Source": "Food_Delivery",
   "BasePath": "_content/Food_Delivery",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Food_Delivery\\wwwroot",
       "Source": "Food_Delivery",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Food_Delivery.styles.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Food_Delivery.styles.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "Food_Delivery.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Food_Delivery.styles.css"
+      "OriginalItemSpec": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Food_Delivery.styles.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Food_Delivery.bundle.scp.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Food_Delivery.bundle.scp.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "Food_Delivery.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Food_Delivery.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Food_Delivery.bundle.scp.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\css\\site.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\favicon.ico",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\OFL.txt",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\OFL.txt",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "fonts/PT_Sans/OFL.txt",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\PT_Sans\\OFL.txt"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Bold.ttf",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Bold.ttf",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "fonts/PT_Sans/PTSans-Bold.ttf",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\PT_Sans\\PTSans-Bold.ttf"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-BoldItalic.ttf",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-BoldItalic.ttf",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "fonts/PT_Sans/PTSans-BoldItalic.ttf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\PT_Sans\\PTSans-BoldItalic.ttf"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Italic.ttf",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Italic.ttf",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "fonts/PT_Sans/PTSans-Italic.ttf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\PT_Sans\\PTSans-Italic.ttf"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Regular.ttf",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Regular.ttf",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "fonts/PT_Sans/PTSans-Regular.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\PT_Sans\\PTSans-Regular.ttf"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CurFoto.png",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CurFoto.png",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "img/CurFoto.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\img\\CurFoto.png"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CusIc.png",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CusIc.png",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "img/CusIc.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\img\\CusIc.png"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\dish.jpg",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\dish.jpg",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "img/dish.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\img\\dish.jpg"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Logo.png",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Logo.png",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "img/Logo.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Logo.png"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Logo1.png",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Logo1.png",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "img/Logo1.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Logo1.png"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Shest.png",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Shest.png",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "img/Shest.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Shest.png"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Watermark.png",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Watermark.png",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "img/Watermark.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Watermark.png"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermark50.png",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermark50.png",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "img/watermark50.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\img\\watermark50.png"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermarkd.png",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermarkd.png",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "img/watermarkd.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\img\\watermarkd.png"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\js\\site.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
       "BasePath": "_content/Food_Delivery",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
