@@ -1,212 +1,304 @@
 {
   "Files": [
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Food_Delivery.bundle.scp.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Food_Delivery.bundle.scp.css",
       "PackagePath": "staticwebassets\\Food_Delivery.bundle.scp.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\css\\site.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\favicon.ico",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\OFL.txt",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\OFL.txt",
       "PackagePath": "staticwebassets\\fonts\\PT_Sans\\OFL.txt"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Bold.ttf",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Bold.ttf",
       "PackagePath": "staticwebassets\\fonts\\PT_Sans\\PTSans-Bold.ttf"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-BoldItalic.ttf",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\fonts\\PT_Sans\\PTSans-BoldItalic.ttf"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Italic.ttf",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Italic.ttf",
       "PackagePath": "staticwebassets\\fonts\\PT_Sans\\PTSans-Italic.ttf"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Regular.ttf",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\PT_Sans\\PTSans-Regular.ttf"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CurFoto.png",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CurFoto.png",
       "PackagePath": "staticwebassets\\img\\CurFoto.png"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CusIc.png",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CusIc.png",
       "PackagePath": "staticwebassets\\img\\CusIc.png"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Logo.png",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Logo.png",
       "PackagePath": "staticwebassets\\img\\Logo.png"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Logo1.png",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Logo1.png",
       "PackagePath": "staticwebassets\\img\\Logo1.png"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Shest.png",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Shest.png",
       "PackagePath": "staticwebassets\\img\\Shest.png"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Watermark.png",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Watermark.png",
       "PackagePath": "staticwebassets\\img\\Watermark.png"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\dish.jpg",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\dish.jpg",
       "PackagePath": "staticwebassets\\img\\dish.jpg"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermark50.png",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermark50.png",
       "PackagePath": "staticwebassets\\img\\watermark50.png"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermarkd.png",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermarkd.png",
       "PackagePath": "staticwebassets\\img\\watermarkd.png"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\js\\site.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\Учёба\\ЯГТУ\\5 семестр\\Методичка\\GIt\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Food_Delivery.Microsoft.AspNetCore.StaticWebAssets.props",
