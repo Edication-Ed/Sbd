@@ -10,15 +10,6 @@ namespace Food_Delivery.Controllers
 {
     public class FoodController : Controller
     {
-        public const string cookie_loggeduser_id = "cookie_loggeduser_id";
-        public const string cookie_loggeduser_passcode = "cookie_loggeduser_key";
-        public enum statuses
-        {
-            admin = 0,
-            user = 1,
-            delivery_man = 2
-        }
-        public static String[] default_controller = { "Home", "User", "Cur" };
         private readonly FoodDeliveryContext _foodDeliveryContext;
         public FoodController(FoodDeliveryContext foodDelivery)
         {
@@ -28,10 +19,10 @@ namespace Food_Delivery.Controllers
         bool user_init(int access = 3)
         {
             bool canVisit = false;
-            if (CookieHave(cookie_loggeduser_id))
+            if (CookieHave(constants.cookie_loggeduser_id))
             {
-                int id = int.Parse(GetFromCookie(cookie_loggeduser_id));
-                string pass = GetFromCookie(cookie_loggeduser_passcode);
+                int id = int.Parse(GetFromCookie(constants.cookie_loggeduser_id));
+                string pass = GetFromCookie(constants.cookie_loggeduser_passcode);
                 Userlogin? user = _foodDeliveryContext.Userlogins.FirstOrDefault(x => x.Id == id && x.Passcode == pass);
                 if (user != null)
                 {
@@ -73,48 +64,48 @@ namespace Food_Delivery.Controllers
         public ActionResult Index()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
             return View();
         }
         public ActionResult Cur()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
             List<Curier> curiers = _foodDeliveryContext.Curiers.ToList();
             return View(curiers);
         }
         public ActionResult Cus()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
             List<Customer> customers = _foodDeliveryContext.Customers.ToList();
             return View(customers);
         }
         public ActionResult Dish()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
             List<Dish> dishes = _foodDeliveryContext.Dishes.ToList();
             return View(dishes);
         }
         public ActionResult DilL()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
             List<Deliverylist> deliverylists = _foodDeliveryContext.Deliverylists.ToList();
             return View(deliverylists);
         }
         public ActionResult DOL()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
             List<DishOrderList> dishOrderList = _foodDeliveryContext.DishOrderLists.ToList();
             return View(dishOrderList);
         }
         public ActionResult OW()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
             List<Order> order = _foodDeliveryContext.Orders.ToList();
             return View(order);
         }
@@ -122,57 +113,57 @@ namespace Food_Delivery.Controllers
         {
 
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
             return View();
         }
         public ActionResult Add2()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
             return View();
         }
         public ActionResult Add3()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
             return View();
         }
         public ActionResult Add4()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
             return View();
         }
         public ActionResult Add5()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
             return View();
         }
         public ActionResult Add6()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
             return View();
         }
         public ActionResult Ed1(int id)
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
             Curier cur = _foodDeliveryContext.Curiers.FirstOrDefault(x => x.IdCurier == id);
             return View(cur);
         }
         public ActionResult Ed2(int id)
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]); 
             Customer cus = _foodDeliveryContext.Customers.FirstOrDefault(x => x.IdCustomer == id);
             return View(cus);
         }
         public ActionResult Ed4(int id)
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
             Dish dis = _foodDeliveryContext.Dishes.FirstOrDefault(x => x.IdDish == id);
             return View(dis);
         }

@@ -172,6 +172,8 @@ namespace Auth_Login.Controllers
             switch (user.Status) {
                 case 3:
                     return RedirectToAction("Index", "Food");
+                case 2:
+                    return RedirectToAction("Index", "Cur");
                 case 1:
                     return RedirectToAction("Index", "User");
             }

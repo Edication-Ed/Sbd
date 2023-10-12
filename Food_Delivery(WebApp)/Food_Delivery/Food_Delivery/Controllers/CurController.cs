@@ -1,19 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Food_Delivery.Models;
 
 namespace Food_Delivery.Controllers
 {
     public class CurController : Controller
     {
-        public const string cookie_loggeduser_id = "cookie_loggeduser_id";
-        public const string cookie_loggeduser_passcode = "cookie_loggeduser_key";
-        public enum statuses
-        {
-            admin = 0,
-            user = 1,
-            delivery_man = 2
-        }
-        public static String[] default_controller = { "Home", "User", "Cur" };
         private readonly FoodDeliveryContext _foodDeliveryContext;
         public CurController(FoodDeliveryContext foodDelivery)
         {
@@ -23,10 +15,10 @@ namespace Food_Delivery.Controllers
         bool user_init(int access = 2)
         {
             bool canVisit = false;
-            if (CookieHave(cookie_loggeduser_id))
+            if (CookieHave(constants.cookie_loggeduser_id))
             {
-                int id = int.Parse(GetFromCookie(cookie_loggeduser_id));
-                string pass = GetFromCookie(cookie_loggeduser_passcode);
+                int id = int.Parse(GetFromCookie(constants.cookie_loggeduser_id));
+                string pass = GetFromCookie(constants.cookie_loggeduser_passcode);
                 Userlogin? user = _foodDeliveryContext.Userlogins.FirstOrDefault(x => x.Id == id && x.Passcode == pass);
                 if (user != null)
                 {
@@ -66,7 +58,7 @@ namespace Food_Delivery.Controllers
         public ActionResult Index()
         {
             var can = user_init();
-            if (!can) return RedirectToAction("Index", default_controller[ViewData["status"] != null ? (int)ViewData["status"] : 0]);
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null ? (int)ViewData["status"] : 0]);
             List<Deliverylist> dell = _foodDeliveryContext.Deliverylists.ToList();
             ViewData["Dell"] = dell;
             List<String> adres = new List<String>();
