@@ -135,6 +135,11 @@ namespace Auth_Login.Controllers
             HttpContext.Response.Cookies.Delete(name);
         }
 
+        public IActionResult Index()
+        {
+            return Redirect("Login");
+        }
+
         public async Task<IActionResult> Login(string username, string passcode, bool rememberme)
         {
             if (CookieHave(cookie_loggeduser_id))
@@ -148,6 +153,8 @@ namespace Auth_Login.Controllers
                 {
                     case 3:
                         return RedirectToAction("Index", "Food");
+                    case 2:
+                        return RedirectToAction("Index", "Cur");
                     case 1:
                         return RedirectToAction("Index", "User");
                 }
@@ -165,6 +172,8 @@ namespace Auth_Login.Controllers
             switch (user.Status) {
                 case 3:
                     return RedirectToAction("Index", "Food");
+                case 2:
+                    return RedirectToAction("Index", "Cur");
                 case 1:
                     return RedirectToAction("Index", "User");
             }

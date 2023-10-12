@@ -1,37 +1,45 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Food_Delivery.Models;
 
 namespace Food_Delivery.Controllers
 {
     public class CurController : Controller
     {
-        public const string cookie_loggeduser_id = "cookie_loggeduser_id";
-        public const string cookie_loggeduser_passcode = "cookie_loggeduser_key";
         private readonly FoodDeliveryContext _foodDeliveryContext;
         public CurController(FoodDeliveryContext foodDelivery)
         {
             _foodDeliveryContext = foodDelivery;
         }
 
-        void user_init()
+        bool user_init(int access = 2)
         {
-            if (CookieHave(cookie_loggeduser_id))
+            bool canVisit = false;
+            if (CookieHave(constants.cookie_loggeduser_id))
             {
-                int id = int.Parse(GetFromCookie(cookie_loggeduser_id));
-                string pass = GetFromCookie(cookie_loggeduser_passcode);
+                int id = int.Parse(GetFromCookie(constants.cookie_loggeduser_id));
+                string pass = GetFromCookie(constants.cookie_loggeduser_passcode);
                 Userlogin? user = _foodDeliveryContext.Userlogins.FirstOrDefault(x => x.Id == id && x.Passcode == pass);
-                if (user != null) { 
+                if (user != null)
+                {
                     ViewData["userData"] = user.Username;
                     ViewData["additionalId"] = user.Additionalid;
-                    ViewData["status"] = user.Status;
+                    int stat = (int)user.Status;
+                    ViewData["status"] = stat;
+                    if (stat != null && (stat == 3 || stat == access))
+                        canVisit = true;
+
                 }
                 else
+                {
                     ViewData["userData"] = "";
+                }
             }
             else
             {
                 ViewData["userData"] = "";
             }
+            return canVisit;
         }
 
         string GetFromCookie(string name)
@@ -49,7 +57,8 @@ namespace Food_Delivery.Controllers
 
         public ActionResult Index()
         {
-            user_init();
+            var can = user_init();
+            if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null ? (int)ViewData["status"] : 0]);
             List<Deliverylist> dell = _foodDeliveryContext.Deliverylists.ToList();
             ViewData["Dell"] = dell;
             List<String> adres = new List<String>();
