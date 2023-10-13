@@ -1,6 +1,10 @@
 ﻿@model List<DishOrderListView>
 @{
     decimal Total = (decimal)ViewData["Total"];
+    DateTime date = (DateTime)ViewData["date"];
+    string fam = (string)ViewData["LastName"];
+    string imya = (string)ViewData["FirstName"];
+    string otch = (string)ViewData["Patronomic"];
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -13,13 +17,33 @@
     <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
 </head>
 <body>
-   <h1>@Model.First().IdOrdersFk</h1>
-    @foreach (var c in Model)
-    {
-        <h3>@c.DishName</h3>
-        <h3>Кол-во: @c.Quantity</h3>
-    }
-    <h3>Итог:@Total </h3>
+    <div class="text-center border border-dark w-25 position-absolute top-50 start-50 translate-middle print"> 
+    <h5 class="fw-weight-bold">Чек №@Model.First().IdOrdersFk</h5>
+    <p>@date</p>
+    <hr class="line" align="center" />
+    <p>@fam @imya @otch</p>
+    <hr class="line" align="center" />
+        <div class="d-flex justify-content-between">
+            <span class="text-start ms-1"><b>Наименование</b></span>
+            <span><b class="text-end me-1">Кол-во</b></span>
+        </div>
+        <div class="d-flex justify-content-between">
+            @foreach (var c in Model)
+            {
+                <span class="text-start ms-1">@c.DishName</span>
+                <span class="text-end me-1">@c.Quantity</span>
+            }
+        </div>
+        <hr class="line2" align="center" />
+        <div class="d-flex justify-content-between">
+            <span class="text-start ms-1 fs-4"><b>Итог:</b></span>
+            <span class="text-end me-1 fs-4"><b>@Total</b></span>
+        </div>
+        <p>OOO "Food_Delivery"</p>
+    </div>
+    <div>
+        <button class="btn btn-primary btn-lg" onclick="javascript:window.print()">Печать</button>
+    </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

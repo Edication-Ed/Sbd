@@ -79,6 +79,10 @@ namespace Food_Delivery.Controllers
             List<DishOrderListView> Dr = _foodDeliveryContext.DishOrderListViews.Where(x => x.IdOrdersFk == id).ToList();
             List<OrdersView> ds = _foodDeliveryContext.OrdersViews.Where(x => x.IdOrders == id).ToList();
             ViewData["Total"] = ds.First().Totalcost;
+            ViewData["Date"] = ds.First().TimeOrdered;
+            ViewData["LastName"] = ds.First().CustomerLastname;
+            ViewData["FirstName"] = ds.First().CustomerFirstname;
+            ViewData["Patronomic"] = ds.First().CustomerPatronymic;
             return View(Dr);
         }
     }
