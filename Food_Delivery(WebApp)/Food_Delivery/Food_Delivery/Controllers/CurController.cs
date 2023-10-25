@@ -60,16 +60,24 @@ namespace Food_Delivery.Controllers
             var can = user_init();
             if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null ? (int)ViewData["status"] : 0]);
             List<Deliverylist> dell = _foodDeliveryContext.Deliverylists.ToList();
-            ViewData["Dell"] = dell;
             List<String> adres = new List<String>();
-            foreach(Deliverylist del in dell) { 
-                Customer? cus = _foodDeliveryContext.Customers.FirstOrDefault(c => c.IdCustomer == _foodDeliveryContext.Orders.FirstOrDefault(o=>o.IdOrders == del.IdOrdersFk).IdCustomerFk);
+            List<decimal> cost = new List<decimal>();
+            List<String> pay = new List<String>();
+            foreach (Deliverylist del in dell) {
+                Order? ord = _foodDeliveryContext.Orders.FirstOrDefault(o => o.IdOrders == del.IdOrdersFk);
+                Customer? cus = _foodDeliveryContext.Customers.FirstOrDefault(c => c.IdCustomer == ord.IdCustomerFk);
                 if (cus != null)
                     adres.Add(string.Format("г. {0}, улица {1}, дом {2}{4}, квартира {3}", cus.City, cus.Street, cus.HouseNumber, cus.Apartment, cus.Building));
                 else
                     adres.Add("");
+
+                if (ord != null)
+                    cost.Add(ord.Totalcost);
+                else
+                    cost.Add(0);
             }
             ViewData["Add"] = adres;
+            ViewData["Cost"] = cost;
             return View(dell);
         }
     }

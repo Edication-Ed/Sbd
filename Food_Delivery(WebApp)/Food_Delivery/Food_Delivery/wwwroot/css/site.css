@@ -72,15 +72,17 @@ a {
 }
 
 .print {
-    border: 2 px solid black;
+    border: 2px solid black;
 }
 
-@\@media print {
+@media print {
     body {
         visibility: hidden;
     }
 
     .print {
         visibility: visible;
+        height: auto;
+        min-width: 95%;
     }
 }
