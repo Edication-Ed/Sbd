@@ -1,13 +1,16 @@
 ﻿@model List<Deliverylist>
 @{
     List<String> address = (List<String>)ViewData["Add"];
+    List<decimal> cost = (List<decimal>)ViewData["Cost"];
 }
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    @{ViewData["Title"] = "Заказы";}
+    @{
+        ViewData["Title"] = "Доставки для курьера";
+    }
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
@@ -19,6 +22,8 @@
             <tr>
                 <th scope="col">№ Чека</th>
                 <th scope="col">Адрес</th>
+                <th scope="col">Сумма чека</th>
+                <th scope="col">Оплата</th>
             </tr>
         </thead>
         <tbody>
@@ -27,6 +32,8 @@
                 <tr>
                     <td>@Model[i].IdOrdersFk</td>
                     <td>@address[i]</td>
+                    <td>@cost[i]</td>
+                    <td>@Model[i].PaymentType</td>
                 </tr>
             }
         </tbody>
