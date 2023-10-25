@@ -27,13 +27,15 @@
             <span class="text-start ms-1"><b>Наименование</b></span>
             <span><b class="text-end me-1">Кол-во</b></span>
         </div>
-        <div class="d-flex justify-content-between">
+        
             @foreach (var c in Model)
             {
+            <div class="d-flex justify-content-between">
                 <span class="text-start ms-1">@c.DishName</span>
                 <span class="text-end me-1">@c.Quantity</span>
+            </div>
             }
-        </div>
+       
         <hr class="line2" align="center" />
         <div class="d-flex justify-content-between">
             <span class="text-start ms-1 fs-4"><b>Итог:</b></span>
@@ -41,7 +43,7 @@
         </div>
         <p>OOO "Food_Delivery"</p>
     </div>
-    <div>
+    <div class="position-absolute" style="bottom: 10%; left: 49%;">
         <button class="btn btn-primary btn-lg" onclick="javascript:window.print()">Печать</button>
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
