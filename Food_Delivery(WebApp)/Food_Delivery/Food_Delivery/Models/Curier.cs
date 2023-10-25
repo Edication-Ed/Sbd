@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Food_Delivery;
+namespace Food_Delivery.Models;
 
 public partial class Curier
 {
@@ -26,6 +26,8 @@ public partial class Curier
     public string PassportIssuedby { get; set; } = null!;
 
     public string PassportDepartment { get; set; } = null!;
+
+    public string? Foto { get; set; }
 
     public virtual ICollection<Deliverylist> Deliverylists { get; set; } = new List<Deliverylist>();
 }

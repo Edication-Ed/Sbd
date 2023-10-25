@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Food_Delivery;
+namespace Food_Delivery.Models;
 
 public partial class Customer
 {
@@ -24,6 +24,8 @@ public partial class Customer
     public char? Building { get; set; }
 
     public short? Apartment { get; set; }
+
+    public string? Foto { get; set; }
 
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 }

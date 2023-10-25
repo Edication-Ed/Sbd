@@ -6,11 +6,10 @@ using System.Diagnostics;
 using System.Security.Cryptography;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.Extensions.Caching.Memory;
-using Food_Delivery;
 
 namespace Auth_Login.Controllers
 {
-    
+
 
     public class SignupFaillure
     {
@@ -203,7 +202,7 @@ namespace Auth_Login.Controllers
             
             if (reason != "")
                 return View(new SignupFaillure(username, passcode, confirm, reason));
-            user = new Food_Delivery.Userlogin()
+            user = new Userlogin()
             {
                 Username = username,
                 Passcode = ComputeSha256Hash(passcode)

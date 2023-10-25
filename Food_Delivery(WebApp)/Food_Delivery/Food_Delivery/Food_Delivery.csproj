@@ -22,4 +22,10 @@
     <_ContentIncludedByDefault Remove="Views\Food\Add5.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\img\foods\" />
+    <Folder Include="wwwroot\img\Cus\" />
+    <Folder Include="wwwroot\img\Cur\" />
+  </ItemGroup>
+
 </Project>
