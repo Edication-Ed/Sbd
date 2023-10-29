@@ -10,12 +10,13 @@
 </head>
 <body>
     <div class="row align-items-center justify-content-center">
-        <form class="col-2 text-center" method="post">
+        <form class="col-2 text-center" method="post" enctype="multipart/form-data">
             <label>Наименование:</label><br />
             <input type="text" name="NM" /><br />
             <label>Цена:</label><br />
             <input type="text" name="TS" /><br /><br />
-
+            <label>Фотография:</label><br />
+            <input type="file" name="image" /><br /><br />
             <button type="submit" class="btn btn-primary btn-lg" asp-area="" asp-controller="Food" asp-action="Add4">Добавить</button>
         </form>
         <div class="col-2"><img src="~/img/dish.jpg"/></div>

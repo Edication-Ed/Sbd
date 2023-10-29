@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using Microsoft.VisualBasic;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Food_Delivery.Controllers
 {
@@ -138,7 +139,8 @@ namespace Food_Delivery.Controllers
         {
             var can = user_init();
             if (!can) return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
-            return View();
+            List<Dish> dishes = _foodDeliveryContext.Dishes.ToList();
+            return View(dishes);
         }
         public ActionResult Add6()
         {
@@ -171,36 +173,76 @@ namespace Food_Delivery.Controllers
 
 
         [HttpPost]
-        public IActionResult Add1(string LN, string FN, string PA, DateTime Borth, string Tel, string SP, string NP, string KP, string PP, string TY)
+        public IActionResult Add1(string LN, string FN, string PA, DateTime Borth, string Tel, string SP, string NP, string KP, string PP, string TY, IFormFile image)
         {
-            Curier cur = new Curier { CurierLastname = LN, CurierFirstname = FN, CurierPatronymic = PA, 
-            Birthday = Borth, CurierPhonenumber = Tel, PassportSeries = SP, PassportNumber = NP, PassportIssuedby = KP, PassportDepartment = PP, DeliveryType = TY };
-            _foodDeliveryContext.Add(cur);
-            _foodDeliveryContext.SaveChanges();
+            if (image != null)
+            {
+                string SavePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Cur", image.FileName);
+                using (var stream = new FileStream(SavePath, FileMode.Create))
+                {
+                    image.CopyTo(stream);
+                }
+
+                Curier cur = new Curier
+                {
+                    CurierLastname = LN,
+                    CurierFirstname = FN,
+                    CurierPatronymic = PA,
+                    Birthday = Borth,
+                    CurierPhonenumber = Tel,
+                    PassportSeries = SP,
+                    PassportNumber = NP,
+                    PassportIssuedby = KP,
+                    PassportDepartment = PP,
+                    DeliveryType = TY,
+                    Foto = image.FileName
+                };
+                _foodDeliveryContext.Add(cur);
+                _foodDeliveryContext.SaveChanges();
+            }
             return RedirectPermanent("~/Food/Cur");
         }
         [HttpPost]
-        public IActionResult Add2(string LN, string FN, string PA, string Tel, string GR, string UL, int DO, char ST, int KV)
+        public IActionResult Add2(string LN, string FN, string PA, string Tel, string GR, string UL, int DO, char ST, int KV, IFormFile image)
         {
-            Customer cus = new Customer { CustomerLastname = LN, CustomerFirstname = FN, CustomerPatronymic = PA, CustomerPhonenumber = Tel, City = GR, Street = UL, HouseNumber = (short)DO, Building = ST, Apartment = (short)KV };
-            _foodDeliveryContext.Add(cus);
-            _foodDeliveryContext.SaveChanges();
+            if (image != null)
+            {
+                string SavePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Cus", image.FileName);
+                using (var stream = new FileStream(SavePath, FileMode.Create))
+                {
+                    image.CopyTo(stream);
+                }
+
+                Customer cus = new Customer { CustomerLastname = LN, CustomerFirstname = FN, CustomerPatronymic = PA, CustomerPhonenumber = Tel, City = GR, Street = UL, HouseNumber = (short)DO, Building = ST, Apartment = (short)KV, Foto = image.FileName };
+                _foodDeliveryContext.Add(cus);
+                _foodDeliveryContext.SaveChanges();
+            }
+            
             return RedirectPermanent("~/Food/Cus");
         }
         [HttpPost]
-        public IActionResult Add3(int PP, int CH, int IK, DateTime TM, string TO, string ST)
+        public IActionResult Add3(int CH, int IK, DateTime TM, string TO, string ST)
         {
-            Deliverylist dell = new Deliverylist { IdDeliverylist = PP, IdOrdersFk = CH, IdCurierFk = IK, TimeDelivered = TM, PaymentType = TO, DeliveryCompletion = ST };
+            Deliverylist dell = new Deliverylist {IdOrdersFk = CH, IdCurierFk = IK, TimeDelivered = TM, PaymentType = TO, DeliveryCompletion = ST };
             _foodDeliveryContext.Add(dell);
             _foodDeliveryContext.SaveChanges();
             return RedirectPermanent("~/Food/DilL");
         }
         [HttpPost]
-        public IActionResult Add4(int PP, string NM, int TS)
+        public IActionResult Add4(int PP, string NM, int TS, IFormFile image)
         {
-            Dish dish = new Dish { IdDish = PP, DishName = NM, DishCost = TS };
-            _foodDeliveryContext.Add(dish);
-            _foodDeliveryContext.SaveChanges();
+            if (image != null)
+            {
+                string SavePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/foods", image.FileName);
+                using (var stream = new FileStream(SavePath, FileMode.Create))
+                {
+                    image.CopyTo(stream);
+                }
+
+                Dish dish = new Dish { IdDish = PP, DishName = NM, DishCost = TS, Foto = image.FileName };
+                _foodDeliveryContext.Add(dish);
+                _foodDeliveryContext.SaveChanges();
+            }
             return RedirectPermanent("~/Food/Dish");
         }
         [HttpPost]

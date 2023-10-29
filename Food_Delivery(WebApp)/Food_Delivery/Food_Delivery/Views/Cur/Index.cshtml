@@ -24,6 +24,7 @@
                 <th scope="col">Адрес</th>
                 <th scope="col">Сумма чека</th>
                 <th scope="col">Оплата</th>
+                <th scope="col">Статус</th>
             </tr>
         </thead>
         <tbody>
@@ -34,6 +35,12 @@
                     <td>@address[i]</td>
                     <td>@cost[i]</td>
                     <td>@Model[i].PaymentType</td>
+                    @if(Model[i].DeliveryCompletion != "Да"){
+                        <td><form method="post"><input type="submit" asp-area="" asp-controller="Cur" asp-action="status" asp-route-id="@Model[i].IdDeliverylist" value="Доставлен" /></form></td>
+                    } else
+                    {
+                        <td>Доставлен</td>
+                    }
                 </tr>
             }
         </tbody>

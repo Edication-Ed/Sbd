@@ -228,15 +228,24 @@ namespace Auth_Login.Controllers
         }
 
         [HttpPost]
-        public IActionResult Additions(string LN, string FN, string PA, string Tel, string GR, string UL, int DO, char ST, int KV)
+        public IActionResult Additions(string LN, string FN, string PA, string Tel, string GR, string UL, int DO, char ST, int KV, IFormFile image)
         {
-            int uid = int.Parse(GetFromCookie(cookie_loggeduser_id));
-            Userlogin user = _foodDeliveryContext.Userlogins.First(e => e.Id == uid);
-            Customer cus = new Customer { CustomerLastname = LN, CustomerFirstname = FN, CustomerPatronymic = PA, CustomerPhonenumber = Tel, City = GR, Street = UL, HouseNumber = (short)DO, Building = ST, Apartment = (short)KV };
-            _foodDeliveryContext.Add(cus);
-            _foodDeliveryContext.SaveChanges();
-            user.Additionalid = cus.IdCustomer;
-            _foodDeliveryContext.SaveChanges();
+            if (image != null)
+            {
+                string SavePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Cus", image.FileName);
+                using (var stream = new FileStream(SavePath, FileMode.Create))
+                {
+                    image.CopyTo(stream);
+                }
+
+                int uid = int.Parse(GetFromCookie(cookie_loggeduser_id));
+                Userlogin user = _foodDeliveryContext.Userlogins.First(e => e.Id == uid);
+                Customer cus = new Customer { CustomerLastname = LN, CustomerFirstname = FN, CustomerPatronymic = PA, CustomerPhonenumber = Tel, City = GR, Street = UL, HouseNumber = (short)DO, Building = ST, Apartment = (short)KV, Foto = image.FileName };
+                _foodDeliveryContext.Add(cus);
+                _foodDeliveryContext.SaveChanges();
+                user.Additionalid = cus.IdCustomer;
+                _foodDeliveryContext.SaveChanges();
+            }
             return RedirectToAction("Cus", "Food");
         }
 

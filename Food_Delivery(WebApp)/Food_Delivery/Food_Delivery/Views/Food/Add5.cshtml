@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model List<Dish>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -13,8 +14,14 @@
         <form class="col-2 text-center" method="post">
             <label>№ Чека:</label><br />
             <input type="text" name="CH" /><br />
-            <label>Наименование:</label><br />
-            <input type="text" name="NM" /><br />
+            <label>Выберите наименование:</label>
+            <select name="NM">
+            <option disabled selected value="Наименование">Наименование</option>
+            @foreach (var c in Model)
+            {
+                <option value="@c.IdDish">@c.DishName</option>
+            }
+            </select>
             <label>Количество:</label><br />
             <input type="text" name="KL" /><br /><br />
 

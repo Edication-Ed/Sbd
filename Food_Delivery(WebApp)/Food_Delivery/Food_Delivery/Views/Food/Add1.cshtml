@@ -11,7 +11,7 @@
 <body>
     <div class="row align-items-center justify-content-center">
         <div class="col-2">
-            <form method="post">
+            <form method="post" enctype="multipart/form-data">
                 <label>Фамилия:</label><br />
                 <input type="text" name="LN"/><br />
                 <label>Имя:</label><br />
@@ -36,7 +36,9 @@
                     <option value="Пешая">Пешая</option>
                     <option value="Велосипед">Велосипед</option>
                     <option value="Автомобиль">Автомобиль</option>
-                </select><br /><br />
+                </select><br />
+                <label>Фотография:</label><br />
+                <input type="file" name="image" /><br /><br />
                 <button type="submit" class="btn btn-primary btn-lg" asp-area="" asp-controller="Food" asp-action="Add1">Добавить</button>
             </form>
         </div>

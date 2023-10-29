@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Food_Delivery.Models;
+using System.Diagnostics;
 
 namespace Food_Delivery.Controllers
 {
@@ -79,6 +80,16 @@ namespace Food_Delivery.Controllers
             ViewData["Add"] = adres;
             ViewData["Cost"] = cost;
             return View(dell);
+        }
+
+        public ActionResult status(int id)
+        {
+            Debug.WriteLine("Changed: " + id);
+            Deliverylist? upd = _foodDeliveryContext.Deliverylists.FirstOrDefault(e=>e.IdDeliverylist == id);
+            if(upd != null)
+                upd.DeliveryCompletion = "Да";
+            _foodDeliveryContext.SaveChanges();
+            return RedirectToAction("Index");            
         }
     }
 }
