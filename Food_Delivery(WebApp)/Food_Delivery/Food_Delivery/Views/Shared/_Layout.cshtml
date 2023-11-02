@@ -29,33 +29,37 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Вход</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="signup">Регистрация</a>
-                        </li>
+                        
                     </ul>
                 </div>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
                     @if (userInfo != "")
                     {
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav me-5 fs-5">
                             <li class="nav-item">
-                                @userInfo |
+                                <span>@userInfo</span>
                             </li>
                         </ul>
+                        @if (ViewData["status"] != null && (int)ViewData["status"] == 1)
+                            {
+                            <ul class="navbar-nav  me-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Basket"><img alt="Корзина" src="~/img/bin.png" style="width: 30px; height: 30px;"/></a>
+                                    </li>
+                                </ul>
+                            }
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="signout">Выйти</a>
-
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="signout"><img alt="Выйти" src="~/img/logout.png" style="width: 30px; height: 30px;" /></a>
                             </li>
                         </ul>
                     } else {
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Вход</a>
-
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="signup">Регистрация</a>
                             </li>
                         </ul>
                     }

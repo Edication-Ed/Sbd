@@ -62,14 +62,14 @@ namespace Food_Delivery.Controllers
             Order? ord = await _foodDeliveryContext.Orders.FirstOrDefaultAsync(u => -u.IdOrders == additionalId);
             if (ord == null)
             {
-                Order nw = new()
+                ord = new()
                 {
                     IdOrders = -additionalId,
                     IdCustomerFk = additionalId,
                     TimeOrdered = DateTime.Now,
                     Totalcost = 0
                 };
-                await _foodDeliveryContext.Orders.AddAsync(nw);
+                await _foodDeliveryContext.Orders.AddAsync(ord);
                 await _foodDeliveryContext.SaveChangesAsync();
             }
             return ord;
