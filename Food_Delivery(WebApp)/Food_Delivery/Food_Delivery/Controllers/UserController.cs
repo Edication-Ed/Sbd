@@ -28,8 +28,8 @@ namespace Food_Delivery.Controllers
                     ViewData["additionalId"] = user.Additionalid;
                     int stat = (int)user.Status;
                     ViewData["status"] = stat;
-                    if (stat != null && ( stat == 3 || stat == access))
-                        canVisit = true;
+                    if (stat != null && (stat == 3 || stat == access))
+                        canVisit = user.Additionalid != null; //true;
 
                 }
                 else
@@ -81,6 +81,11 @@ namespace Food_Delivery.Controllers
             if (!can)
                 return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null? (int)ViewData["status"] : 0]);
             List<Dish> ds = await _foodDeliveryContext.Dishes.ToListAsync();
+            List<DishOrderList> ordered_dishes = await _foodDeliveryContext.DishOrderLists.Where(d => -d.IdOrdersFk == (int)ViewData["additionalId"]).ToListAsync();
+            Dictionary<int, int> dish_quantity = new();
+            foreach (var dish in ordered_dishes)
+                dish_quantity.Add(dish.IdDishFk, dish.Quantity);
+            ViewData["dish_quantity"] = dish_quantity;
             return View(ds);
         }
 
@@ -111,6 +116,31 @@ namespace Food_Delivery.Controllers
                 await _foodDeliveryContext.SaveChangesAsync();
             }
             
+            return RedirectToAction("Index", "User");
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> Sub(int id)
+        {
+            var can = user_init();
+            if (!can)
+                return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null ? (int)ViewData["status"] : 0]);
+            bool ds = await _foodDeliveryContext.Dishes.AnyAsync(d => d.IdDish == id);
+            if (ds)
+            {
+                Order? ord = await createIfNoneTable((int)ViewData["additionalId"]);
+                DishOrderList? nw = await _foodDeliveryContext.DishOrderLists.FirstOrDefaultAsync(d => d.IdOrdersFk == ord.IdOrders && d.IdDishFk == id);
+                if (nw != null)
+                {
+                    if(nw.Quantity > 1)
+                        nw.Quantity -= 1;
+                    else
+                        _foodDeliveryContext.Remove(nw);
+                }
+                    
+                await _foodDeliveryContext.SaveChangesAsync();
+            }
+
             return RedirectToAction("Index", "User");
         }
 

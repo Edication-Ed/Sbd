@@ -9,141 +9,141 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Food_Delivery
 build_property.RootNamespace = Food_Delivery
-build_property.ProjectDir = C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\
+build_property.ProjectDir = D:\Programmes\SUBD\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery
+build_property.MSBuildProjectDirectory = D:\Programmes\SUBD\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Cur/Index.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Cur/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Add1.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Add1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxBZGQxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Add2.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Add2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxBZGQyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Add3.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Add3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxBZGQzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Add4.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Add4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxBZGQ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Add5.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Add5.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxBZGQ1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Add6.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Add6.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxBZGQ2LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Cur.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Cur.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxDdXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Cus.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Cus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxDdXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/DilL.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/DilL.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxEaWxMLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Dish.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Dish.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxEaXNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/DOL.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/DOL.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxET0wuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Ed1.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Ed1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxFZDEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Ed2.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Ed2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxFZDIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Ed4.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Ed4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxFZDQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Index.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/OW.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Food/OW.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxPVy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/Additions.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/Additions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRpdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/Check.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/Check.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVjay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/CurierInfo.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/CurierInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdXJpZXJJbmZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/Index.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/Login.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/Privacy.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/Signup.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Home/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Shared/Error.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/User/Basket.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/User/Basket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxCYXNrZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/User/Chek.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/User/Chek.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDaGVrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/User/Index.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/User/MyOrder.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/User/MyOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNeU9yZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/_ViewImports.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/_ViewStart.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BulMen/Desktop/Web-технологии/Bu1Men-Git.github.io/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Shared/_Layout.cshtml]
+[D:/Programmes/SUBD/Sbd/Food_Delivery(WebApp)/Food_Delivery/Food_Delivery/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0p911hl228

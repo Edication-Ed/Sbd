@@ -1,6 +1,8 @@
 ﻿@model List<Dish>
 @{
     int cusId = (int)ViewData["additionalId"];
+    var dish_quantity = (Dictionary<int, int>)ViewData["dish_quantity"];
+    int quant;
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -24,6 +26,17 @@
                     <h5 class="card-title">@c.DishName</h5>
                     <p class="card-text">Цена: @c.DishCost руб.</p>
                         <form method="post">
+                            @{
+                                try{
+                                quant = dish_quantity[c.IdDish];
+                                } catch {quant = 0;}
+                            }
+                            @if(quant > 0){
+                                <input class="btn btn-primary btn-lg" asp-controller="User" asp-action="Sub" asp-route-id="@c.IdDish" type="submit" value="&#45;" />
+                            } else {
+                                <input class="btn btn-primary btn-lg" type="submit" value="&#45;" disabled />
+                            }
+                            <span class="ms-3 me-3 fs-4"> @quant </span>
                             <input class="btn btn-primary btn-lg" asp-controller="User" asp-action="Add" asp-route-id="@c.IdDish" type="submit" value="&#43;" />
                         </form>
                 </div>
