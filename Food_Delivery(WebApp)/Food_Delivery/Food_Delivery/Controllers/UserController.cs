@@ -85,5 +85,12 @@ namespace Food_Delivery.Controllers
             ViewData["Patronomic"] = ds.First().CustomerPatronymic;
             return View(Dr);
         }
+        public ActionResult Basket()
+        {
+            var can = user_init();
+            if (!can)
+                return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null ? (int)ViewData["status"] : 0]);
+            return View();
+        }
     }
 }

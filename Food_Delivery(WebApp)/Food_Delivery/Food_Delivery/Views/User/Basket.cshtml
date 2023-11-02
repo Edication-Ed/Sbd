@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] "Корзина"</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <h2 class="text-center">Корзина</h2>
+    <div class="row text-center">
+        <div class="w-75 h-auto border-end">
+           <div class="card mb-3 ms-lg-5" style="max-width: 720px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="~/img/foods/2.jpg" class="img-fluid rounded-start" alt="">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Огуречный салатик</h5>
+                    <p>Количество: 1 шт.</p>
+                    <p>Цена: 100</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 ms-lg-5" style="max-width: 720px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="~/img/foods/1.jpg" class="img-fluid rounded-start" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Панна котта</h5>
+                            <p>Количество: 1 шт.</p>
+                            <p>Цена: 150</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-25 h-auto position-relative">
+            <div class="top-50 ">
+                <h5>Количество товаров: 10</h5>
+                <h2>Итого: 1000 руб.</h2>
+                <input type="submit" value="Заказать" class="btn btn-primary btn-lg" />
+            </div>
+            
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
