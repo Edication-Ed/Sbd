@@ -29,11 +29,14 @@
                             <input class="form-control" type="password" name="passcode" value="@Model.Password()" placeholder="Password" required>
                         </div>
                         <div class="mb-3">
-                            <input class="form-control" type="password" name="confirm" value="@Model.Confirmation()" placeholder="Confirm password" required></p>
+                            <input class="form-control" type="password" name="confirm" value="@Model.Confirmation()" placeholder="Confirm password" required>
+                        </div>
+                        <div class="mb-3">
+                            <label> Зарегистрироваться как курьер?  <input type="checkbox" name="curier" value="true">  </label>
                         </div>
                         <div class="text-center"><input class="btn btn-color px-5 mb-5 w-100" type="submit" name="commit" value="Зарегистрироваться" asp-area="" asp-controller="Home" asp-action="Signup"></div>
                         <div class="form-text text-center mb-2 text-dark">
-                            Уже есть аккаунта?
+                            Уже есть аккаунта? 
                             <a class="text-decoration-none" asp-area="" asp-controller="Home" asp-action="Login">Войдите в него!</a>
                         </div>
                     </form>

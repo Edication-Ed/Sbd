@@ -186,14 +186,13 @@ namespace Auth_Login.Controllers
             return RedirectToAction("Login");
         }
 
-        public async Task<IActionResult> Signup(string username, string passcode, string confirm)
+        public async Task<IActionResult> Signup(string username, string passcode, string confirm, bool curier = false)
         {
             if (CookieHave(cookie_loggeduser_id))
                 return RedirectToAction("Index", "Food");
             string reason = "";
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(passcode))
                 return View(new SignupFaillure());
-            Debug.WriteLine("Passcode: " + ComputeSha256Hash(passcode));
             if (passcode != confirm)
                 reason += "Password and password confirmation not the same!\n";
             var user = await _foodDeliveryContext.Userlogins.FirstOrDefaultAsync(user => user.Username.Equals(username));
@@ -205,14 +204,22 @@ namespace Auth_Login.Controllers
             user = new Userlogin()
             {
                 Username = username,
-                Passcode = ComputeSha256Hash(passcode)
+                Passcode = ComputeSha256Hash(passcode),
+                Status = 1 - (curier ? 1 : 0)
             };
             _foodDeliveryContext.Add(user);
             _foodDeliveryContext.SaveChanges();
+            if (!curier) {
+                await Login(username, passcode, false);
+                return RedirectToAction("Additions");
+            }
+            return RedirectToAction("CurierInfo", new {user_id = user.Id });
+        }
 
-            await Login(username, passcode, false);
-
-            return RedirectToAction("Additions");
+        public async Task<ActionResult> CurierInfo(int user_id)
+        {
+            Userlogin? st = await _foodDeliveryContext.Userlogins.FirstOrDefaultAsync(user => user.Id ==user_id);
+            return View(st!=null? st.Status : 0);
         }
 
         public ActionResult Additions()
