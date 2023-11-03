@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8fThTgbdqKVd+VNq0KXWS4sevZ8Wm4aQFPTmamQpf7A=",
+  "Hash": "vj8wEgkD2cq9pY8soFoCjg6C6/ZkkwiEvOu1SyNtpxc=",
   "Source": "Food_Delivery",
   "BasePath": "_content/Food_Delivery",
   "Mode": "Default",
@@ -321,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Cus\\IMG_4567.JPG"
+    },
+    {
+      "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\soul_stone_thumb.png",
+      "SourceId": "Food_Delivery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery",
+      "RelativePath": "img/Cus/soul_stone_thumb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Cus\\soul_stone_thumb.png"
     },
     {
       "Identity": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CusIc.png",

@@ -55,8 +55,6 @@ namespace Auth_Login.Controllers
 
     public class HomeController : Controller
     {
-        public const string cookie_loggeduser_id = "cookie_loggeduser_id";
-        public const string cookie_loggeduser_passcode = "cookie_loggeduser_key";
         private readonly FoodDeliveryContext _foodDeliveryContext;
         public HomeController(FoodDeliveryContext foodDelivery)
         {
@@ -64,15 +62,19 @@ namespace Auth_Login.Controllers
         }
         void user_init()
         {
-            if (CookieHave(cookie_loggeduser_id))
+            if (CookieHave(constants.cookie_loggeduser_id))
             {
-                int id = int.Parse(GetFromCookie(cookie_loggeduser_id));
-                string pass = GetFromCookie(cookie_loggeduser_passcode);
+                int id = int.Parse(GetFromCookie(constants.cookie_loggeduser_id));
+                string pass = GetFromCookie(constants.cookie_loggeduser_passcode);
                 Userlogin? user = _foodDeliveryContext.Userlogins.FirstOrDefault(x => x.Id == id && x.Passcode == pass);
                 if (user != null)
                     ViewData["userData"] = user.Username;
                 else
+                {
                     ViewData["userData"] = "";
+                    CookieRemove(constants.cookie_loggeduser_id);
+                    CookieRemove(constants.cookie_loggeduser_passcode);
+                }
             } else
             {
                 ViewData["userData"] = "";
@@ -141,10 +143,10 @@ namespace Auth_Login.Controllers
 
         public async Task<IActionResult> Login(string username, string passcode, bool rememberme)
         {
-            if (CookieHave(cookie_loggeduser_id))
+            if (CookieHave(constants.cookie_loggeduser_id))
             {
-                int id = int.Parse(GetFromCookie(cookie_loggeduser_id));
-                string pass = GetFromCookie(cookie_loggeduser_passcode);
+                int id = int.Parse(GetFromCookie(constants.cookie_loggeduser_id));
+                string pass = GetFromCookie(constants.cookie_loggeduser_passcode);
                 var use = _foodDeliveryContext.Userlogins.FirstOrDefault(x => x.Id == id && x.Passcode == pass);
                 if (use == null)
                     return View();
@@ -166,8 +168,8 @@ namespace Auth_Login.Controllers
                 ViewData["Username"] = username;
                 return View();
             }
-            SaveToCookie(cookie_loggeduser_id, user.Id.ToString(), !rememberme);
-            SaveToCookie(cookie_loggeduser_passcode, user.Passcode, !rememberme);
+            SaveToCookie(constants.cookie_loggeduser_id, user.Id.ToString(), !rememberme);
+            SaveToCookie(constants.cookie_loggeduser_passcode, user.Passcode, !rememberme);
             switch (user.Status) {
                 case 3:
                     return RedirectToAction("Index", "Food");
@@ -181,14 +183,14 @@ namespace Auth_Login.Controllers
 
         public async Task<IActionResult> signout(string url)
         {
-            if (CookieHave(cookie_loggeduser_id))
-                CookieRemove(cookie_loggeduser_id);
+            if (CookieHave(constants.cookie_loggeduser_id))
+                CookieRemove(constants.cookie_loggeduser_id);
             return RedirectToAction("Login");
         }
 
         public async Task<IActionResult> Signup(string username, string passcode, string confirm, bool curier = false)
         {
-            if (CookieHave(cookie_loggeduser_id))
+            if (CookieHave(constants.cookie_loggeduser_id))
                 return RedirectToAction("Index", "Food");
             string reason = "";
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(passcode))
@@ -245,7 +247,7 @@ namespace Auth_Login.Controllers
                     image.CopyTo(stream);
                 }
 
-                int uid = int.Parse(GetFromCookie(cookie_loggeduser_id));
+                int uid = int.Parse(GetFromCookie(constants.cookie_loggeduser_id));
                 Userlogin user = _foodDeliveryContext.Userlogins.First(e => e.Id == uid);
                 Customer cus = new Customer { CustomerLastname = LN, CustomerFirstname = FN, CustomerPatronymic = PA, CustomerPhonenumber = Tel, City = GR, Street = UL, HouseNumber = (short)DO, Building = ST, Apartment = (short)KV, Foto = image.FileName };
                 _foodDeliveryContext.Add(cus);

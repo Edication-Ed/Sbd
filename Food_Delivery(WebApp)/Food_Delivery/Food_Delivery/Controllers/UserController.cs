@@ -29,11 +29,13 @@ namespace Food_Delivery.Controllers
                     int stat = (int)user.Status;
                     ViewData["status"] = stat;
                     if (stat != null && (stat == 3 || stat == access))
-                        canVisit = user.Additionalid != null; //true;
+                        canVisit = true;
 
                 }
                 else
                 {
+                    CookieRemove(constants.cookie_loggeduser_id);
+                    CookieRemove(constants.cookie_loggeduser_passcode);
                     ViewData["userData"] = "";
                 }
             }
@@ -55,6 +57,11 @@ namespace Food_Delivery.Controllers
         bool CookieHave(string name)
         {
             return Request.Cookies.TryGetValue(name, out _);
+        }
+
+        void CookieRemove(string name)
+        {
+            HttpContext.Response.Cookies.Delete(name);
         }
 
         public async Task<Order?> createIfNoneTable(int additionalId)
