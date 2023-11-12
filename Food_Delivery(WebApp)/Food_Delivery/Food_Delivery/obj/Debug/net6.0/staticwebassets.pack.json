@@ -57,8 +57,20 @@
       "PackagePath": "staticwebassets\\img\\Cus\\3.jpg"
     },
     {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\492acf9f547a35e10bd56a5869110f1a-333358068 — копия.jpg",
+      "PackagePath": "staticwebassets\\img\\Cus\\492acf9f547a35e10bd56a5869110f1a-333358068 — копия.jpg"
+    },
+    {
       "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\IMG_4567.JPG",
       "PackagePath": "staticwebassets\\img\\Cus\\IMG_4567.JPG"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\hamis.jpg",
+      "PackagePath": "staticwebassets\\img\\Cus\\hamis.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\soul_stone_thumb.png",
+      "PackagePath": "staticwebassets\\img\\Cus\\soul_stone_thumb.png"
     },
     {
       "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Logo.png",
@@ -75,6 +87,10 @@
     {
       "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Watermark.png",
       "PackagePath": "staticwebassets\\img\\Watermark.png"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\bin.png",
+      "PackagePath": "staticwebassets\\img\\bin.png"
     },
     {
       "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\dish.jpg",
@@ -107,6 +123,10 @@
     {
       "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\foods\\7.jpg",
       "PackagePath": "staticwebassets\\img\\foods\\7.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\logout.png",
+      "PackagePath": "staticwebassets\\img\\logout.png"
     },
     {
       "Id": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermark50.png",

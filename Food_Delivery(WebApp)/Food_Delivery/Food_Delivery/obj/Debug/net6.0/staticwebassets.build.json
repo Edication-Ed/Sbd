@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NIwY3GoPUoJR4h2bOjiipwdOErmqLiSX0dxzvQ9yJvA=",
+  "Hash": "JpU5lmoOlZp6yYBazpfQC1Yu36ESGgHMl42T4hBBrec=",
   "Source": "Food_Delivery",
   "BasePath": "_content/Food_Delivery",
   "Mode": "Default",
@@ -170,6 +170,23 @@
       "OriginalItemSpec": "wwwroot\\fonts\\PT_Sans\\PTSans-Regular.ttf"
     },
     {
+      "Identity": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\bin.png",
+      "SourceId": "Food_Delivery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery",
+      "RelativePath": "img/bin.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bin.png"
+    },
+    {
       "Identity": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cur\\1.jpg",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
@@ -255,6 +272,40 @@
       "OriginalItemSpec": "wwwroot\\img\\Cus\\3.jpg"
     },
     {
+      "Identity": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\492acf9f547a35e10bd56a5869110f1a-333358068 — копия.jpg",
+      "SourceId": "Food_Delivery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery",
+      "RelativePath": "img/Cus/492acf9f547a35e10bd56a5869110f1a-333358068 — копия.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Cus\\492acf9f547a35e10bd56a5869110f1a-333358068 — копия.jpg"
+    },
+    {
+      "Identity": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\hamis.jpg",
+      "SourceId": "Food_Delivery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery",
+      "RelativePath": "img/Cus/hamis.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Cus\\hamis.jpg"
+    },
+    {
       "Identity": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\IMG_4567.JPG",
       "SourceId": "Food_Delivery",
       "SourceType": "Discovered",
@@ -270,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Cus\\IMG_4567.JPG"
+    },
+    {
+      "Identity": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\soul_stone_thumb.png",
+      "SourceId": "Food_Delivery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery",
+      "RelativePath": "img/Cus/soul_stone_thumb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Cus\\soul_stone_thumb.png"
     },
     {
       "Identity": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CusIc.png",
@@ -457,6 +525,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Logo1.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\logout.png",
+      "SourceId": "Food_Delivery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery",
+      "RelativePath": "img/logout.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logout.png"
     },
     {
       "Identity": "D:\\GitHub\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Shest.png",

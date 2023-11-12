@@ -91,7 +91,18 @@ namespace Food_Delivery.Controllers
             List<DishOrderList> ordered_dishes = await _foodDeliveryContext.DishOrderLists.Where(d => -d.IdOrdersFk == (int)ViewData["additionalId"]).ToListAsync();
             Dictionary<int, int> dish_quantity = new();
             foreach (var dish in ordered_dishes)
-                dish_quantity.Add(dish.IdDishFk, dish.Quantity);
+            {
+                try
+                {
+                    _ = dish_quantity[dish.IdDishFk];
+                    _foodDeliveryContext.Remove(dish);
+                    await _foodDeliveryContext.SaveChangesAsync();
+                }
+                catch
+                {
+                    dish_quantity.Add(dish.IdDishFk, dish.Quantity);
+                }
+            }
             ViewData["dish_quantity"] = dish_quantity;
             return View(ds);
         }
@@ -151,11 +162,12 @@ namespace Food_Delivery.Controllers
             return RedirectToAction("Index", "User");
         }
 
-        public ActionResult MyOrder(int id)
+        public ActionResult MyOrder()
         {
             var can = user_init();
             if (!can)
                 return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null ? (int)ViewData["status"] : 0]);
+            int id = (int)ViewData["additionalId"];
             List<OrdersView> ds = _foodDeliveryContext.OrdersViews.Where(x => x.IdOrders > 0 && x.IdCustomer == id).ToList();
             return View(ds);
         }
@@ -180,7 +192,49 @@ namespace Food_Delivery.Controllers
                 return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null ? (int)ViewData["status"] : 0]);
             Order ord = await createIfNoneTable((int)ViewData["additionalId"]);
             ord.DishOrderLists = _foodDeliveryContext.DishOrderLists.Where(d => d.IdOrdersFk == ord.IdOrders).ToList();
+
+            List<Dish> ds = await _foodDeliveryContext.Dishes.ToListAsync();
+            Dictionary<int, Dish> dishes = new();
+            foreach (var dish in ds)
+                dishes.Add(dish.IdDish, dish);
+            List<Dish> dishs = new();
+            int count = 0;
+            foreach (var dish in ord.DishOrderLists)
+            {
+                dishes[dish.IdDishFk].DishOrderLists.Add(dish);
+                dishs.Add(dishes[dish.IdDishFk]);
+                count += dish.Quantity;
+            }
+            ViewData["dish_quantity"] = dishs;
+            ViewData["count"] = count;
             return View(ord);
+        }
+        [HttpPost]
+        public async Task<ActionResult> Zak()
+        {
+            var can = user_init();
+            if (!can)
+                return RedirectToAction("Index", constants.default_controller[ViewData["status"] != null ? (int)ViewData["status"] : 0]);
+            int additionalId = (int)ViewData["additionalId"];
+            Order ord = await createIfNoneTable(additionalId);
+            if (ord.Totalcost == 0)
+                return RedirectToAction("Basket");
+            ord = new()
+            {
+                IdOrders = default,
+                IdCustomerFk = additionalId,
+                TimeOrdered = DateTime.Now,
+                Totalcost = 0
+            };
+            await _foodDeliveryContext.Orders.AddAsync(ord);
+            await _foodDeliveryContext.SaveChangesAsync();
+            foreach (var dish in await _foodDeliveryContext.DishOrderLists
+                .Where(d=> d.IdOrdersFk == -additionalId).ToListAsync())
+            {
+                dish.IdOrdersFk = ord.IdOrders;
+            }
+            await _foodDeliveryContext.SaveChangesAsync();
+            return RedirectToAction("MyOrder");
         }
     }
 }
