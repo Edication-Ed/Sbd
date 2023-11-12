@@ -2,8 +2,8 @@
 {
     public static class constants
     {
-        public const string cookie_loggeduser_id = "cookie_loggeduser_id";
-        public const string cookie_loggeduser_passcode = "cookie_loggeduser_key";
+        public const string cookie_loggeduser_id = "cookie_loggeduser_keycode-first";
+        public const string cookie_loggeduser_passcode = "cookie_loggeduser_keycode-second";
         public enum statuses
         {
             admin = 3,

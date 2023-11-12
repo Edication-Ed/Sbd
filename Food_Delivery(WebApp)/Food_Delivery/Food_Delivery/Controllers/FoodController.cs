@@ -37,6 +37,8 @@ namespace Food_Delivery.Controllers
                 }
                 else
                 {
+                    CookieRemove(constants.cookie_loggeduser_id);
+                    CookieRemove(constants.cookie_loggeduser_passcode);
                     ViewData["userData"] = "";
                 }
             }
@@ -58,6 +60,11 @@ namespace Food_Delivery.Controllers
         bool CookieHave(string name)
         {
             return Request.Cookies.TryGetValue(name, out _);
+        }
+
+        void CookieRemove(string name)
+        {
+            HttpContext.Response.Cookies.Delete(name);
         }
 
         // GET: FoodController
