@@ -1,41 +1,44 @@
-﻿@model List<OrdersView>
-@{
-    ViewData["Title"] = "OrdersView";
-}
-<style>
-    .t1 {
-        border: 2px solid black;
+﻿@model List<Order>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @{
+        ViewData["Title"] = "Чеки";
     }
-
-    form {
-        margin-left: 300%;
-    }
-
-    h1 {
-        text-align: center;
-    }
-</style>
-
-<h1>@ViewData["Title"]</h1>
-<table class="t1">
-    <tr class="t1">
-        <td class="t1">№п/п</td>
-        <td class="t1">Фамилия</td>
-        <td class="t1">Имя</td>
-        <td class="t1">ОТчество</td>
-        <td class="t1">Дата/Время</td>
-        <td class="t1">ИТОГ</td>
-        <td class="t1"><a class="nav-link text-dark" asp-area="" asp-controller="Car" asp-action="Add">Добавить</a></td>
-    </tr>
-    @foreach (var c in Model)
-    {
-        <tr class="t1">
-            <td class="t1" name="id">@c.IdOrders</td>
-            <td class="t1">@c.CustomerLastname</td>
-            <td class="t1">@c.CustomerFirstname</td>
-            <td class="t1">@c.CustomerPatronymic</td>
-            <td class="t1">@c.TimeOrdered</td>
-            <td class="t1">@c.Totalcost</td>
-        </tr>
-    }
-</table>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
+</head>
+<body class="justify-content-center">
+    <h1>@ViewData["Title"]</h1>
+    <table class="table">
+        <thead>
+            <tr class="text-dark">
+                <td scope="col">№п/п</td>
+                <td scope="col">ID пользователя</td>
+                <td scope="col">Дата/Время</td>
+                <td scope="col">ИТОГ</td>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td name="id">@c.IdOrders</td>
+                <td>@c.IdCustomerFk</td>
+                <td>@c.TimeOrdered</td>
+                <td>@c.Totalcost</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    <div class="d-flex justify-content-center align-items-center">
+        <button class="btn btn-primary btn-lg"><a class="text-decoration-none text-white" asp-area="" asp-controller="Food" asp-action="Add6">Добавить</a></button>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

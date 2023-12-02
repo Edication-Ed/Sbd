@@ -52,6 +52,114 @@ D:\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\System.Tex
 D:\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.csproj.AssemblyReference.cache
 D:\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.csproj.CopyComplete
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\appsettings.Development.json
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\appsettings.json
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.staticwebassets.runtime.json
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.exe
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.deps.json
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.runtimeconfig.json
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.pdb
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Humanizer.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Npgsql.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\System.CodeDom.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\System.Text.Json.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.csproj.AssemblyReference.cache
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.AssemblyInfoInputs.cache
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.AssemblyInfo.cs
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.csproj.CoreCompileInputs.cache
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.RazorAssemblyInfo.cache
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.RazorAssemblyInfo.cs
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets\msbuild.Food_Delivery.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets\msbuild.build.Food_Delivery.props
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Food_Delivery.props
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Food_Delivery.props
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets.pack.json
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets.build.json
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets.development.json
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\scopedcss\bundle\Food_Delivery.styles.css
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\scopedcss\projectbundle\Food_Delivery.bundle.scp.css
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.csproj.CopyComplete
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\refint\Food_Delivery.dll
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.pdb
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.genruntimeconfig.cache
+D:\GitHub\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\ref\Food_Delivery.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.csproj.AssemblyReference.cache
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.GeneratedMSBuildEditorConfig.editorconfig
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.AssemblyInfoInputs.cache
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.AssemblyInfo.cs
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.csproj.CoreCompileInputs.cache
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.MvcApplicationPartsAssemblyInfo.cache
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.RazorAssemblyInfo.cache
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.RazorAssemblyInfo.cs
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\appsettings.Development.json
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\appsettings.json
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.staticwebassets.runtime.json
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.exe
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.deps.json
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.runtimeconfig.json
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.pdb
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Humanizer.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Npgsql.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\System.CodeDom.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\System.Text.Json.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets\msbuild.Food_Delivery.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets\msbuild.build.Food_Delivery.props
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Food_Delivery.props
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Food_Delivery.props
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets.build.json
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets.development.json
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\scopedcss\bundle\Food_Delivery.styles.css
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\scopedcss\projectbundle\Food_Delivery.bundle.scp.css
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.csproj.CopyComplete
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\refint\Food_Delivery.dll
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.pdb
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.genruntimeconfig.cache
+E:\Учёба\ЯГТУ\5 семестр\Методичка\GIt\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\ref\Food_Delivery.dll
 D:\Programmes\SUBD\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\appsettings.Development.json
 D:\Programmes\SUBD\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\appsettings.json
 D:\Programmes\SUBD\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.staticwebassets.runtime.json
@@ -106,3 +214,57 @@ D:\Programmes\SUBD\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Deb
 D:\Programmes\SUBD\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.pdb
 D:\Programmes\SUBD\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.genruntimeconfig.cache
 D:\Programmes\SUBD\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\ref\Food_Delivery.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\appsettings.json
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.staticwebassets.runtime.json
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.exe
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.deps.json
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.runtimeconfig.json
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Food_Delivery.pdb
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Humanizer.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Npgsql.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.csproj.AssemblyReference.cache
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.AssemblyInfoInputs.cache
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.AssemblyInfo.cs
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.csproj.CoreCompileInputs.cache
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.RazorAssemblyInfo.cache
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.RazorAssemblyInfo.cs
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets\msbuild.Food_Delivery.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets\msbuild.build.Food_Delivery.props
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Food_Delivery.props
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Food_Delivery.props
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\scopedcss\bundle\Food_Delivery.styles.css
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\scopedcss\projectbundle\Food_Delivery.bundle.scp.css
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.csproj.CopyComplete
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\refint\Food_Delivery.dll
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.pdb
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\Food_Delivery.genruntimeconfig.cache
+C:\Users\BulMen\Desktop\Web-технологии\Bu1Men-Git.github.io\Sbd\Food_Delivery(WebApp)\Food_Delivery\Food_Delivery\obj\Debug\net6.0\ref\Food_Delivery.dll

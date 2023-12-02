@@ -1,0 +1,55 @@
+﻿@model List<DishOrderListView>
+@{
+    decimal Total = (decimal)ViewData["Total"];
+    DateTime date = (DateTime)ViewData["date"];
+    string fam = (string)ViewData["LastName"];
+    string imya = (string)ViewData["FirstName"];
+    string otch = (string)ViewData["Patronomic"];
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] "Job Page"</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Food_Delivery.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="text-center border border-dark w-25 position-absolute top-50 start-50 translate-middle print"> 
+    <h5 class="fw-weight-bold">Чек №@Model.First().IdOrdersFk</h5>
+    <p>@date</p>
+    <hr class="line" align="center" />
+    <p>@fam @imya @otch</p>
+    <hr class="line" align="center" />
+        <div class="d-flex justify-content-between">
+            <span class="text-start ms-1"><b>Наименование</b></span>
+            <span><b class="text-end me-1">Кол-во</b></span>
+        </div>
+        
+            @foreach (var c in Model)
+            {
+            <div class="d-flex justify-content-between">
+                <span class="text-start ms-1">@c.DishName</span>
+                <span class="text-end me-1">@c.Quantity</span>
+            </div>
+            }
+       
+        <hr class="line2" align="center" />
+        <div class="d-flex justify-content-between">
+            <span class="text-start ms-1 fs-4"><b>Итог:</b></span>
+            <span class="text-end me-1 fs-4"><b>@Total</b></span>
+        </div>
+        <p>OOO "Food_Delivery"</p>
+    </div>
+    <div class="position-absolute" style="bottom: 10%; left: 47%;">
+        <button class="btn btn-primary btn-lg" onclick="javascript:window.print()">Печать</button>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
+
+

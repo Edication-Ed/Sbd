@@ -1071,27 +1071,28 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.11",
+      "Npgsql >= 7.0.6",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.11"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bu1Men\\.nuget\\packages\\": {},
+    "C:\\Users\\BulMen\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\Food_Delivery.csproj",
+      "projectUniqueName": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\Food_Delivery.csproj",
       "projectName": "Food_Delivery",
-      "projectPath": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\Food_Delivery.csproj",
-      "packagesPath": "C:\\Users\\Bu1Men\\.nuget\\packages\\",
-      "outputPath": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\",
+      "projectPath": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\Food_Delivery.csproj",
+      "packagesPath": "C:\\Users\\BulMen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Bu1Men\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BulMen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1124,6 +1125,10 @@
             "target": "Package",
             "version": "[7.0.11, )"
           },
+          "Npgsql": {
+            "target": "Package",
+            "version": "[7.0.6, )"
+          },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[7.0.11, )"
@@ -1148,7 +1153,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

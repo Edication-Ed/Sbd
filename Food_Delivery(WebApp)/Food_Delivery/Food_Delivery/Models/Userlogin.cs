@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Food_Delivery;
+namespace Food_Delivery.Models;
 
 public partial class Userlogin
 {

@@ -7,10 +7,12 @@ using System.Security.Cryptography;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.Extensions.Caching.Memory;
 using Food_Delivery;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Npgsql;
 
 namespace Auth_Login.Controllers
 {
-    
+
 
     public class SignupFaillure
     {
@@ -56,43 +58,39 @@ namespace Auth_Login.Controllers
 
     public class HomeController : Controller
     {
-        public const string cookie_loggeduser_id = "cookie_loggeduser_id";
-        public const string cookie_loggeduser_passcode = "cookie_loggeduser_key";
         private readonly FoodDeliveryContext _foodDeliveryContext;
         public HomeController(FoodDeliveryContext foodDelivery)
         {
             _foodDeliveryContext = foodDelivery;
         }
-        void user_init()
+
+
+        async Task user_init()
         {
-            if (CookieHave(cookie_loggeduser_id))
+            if (CookieHave(constants.cookie_loggeduser_id))
             {
-                int id = int.Parse(GetFromCookie(cookie_loggeduser_id));
-                string pass = GetFromCookie(cookie_loggeduser_passcode);
-                Userlogin? user = _foodDeliveryContext.Userlogins.FirstOrDefault(x => x.Id == id && x.Passcode == pass);
+                int id = int.Parse(GetFromCookie(constants.cookie_loggeduser_id));
+                string pass = GetFromCookie(constants.cookie_loggeduser_passcode);
+                Userlogin? user = await constants.getUserById(id, pass);
                 if (user != null)
                     ViewData["userData"] = user.Username;
                 else
+                {
                     ViewData["userData"] = "";
+                    CookieRemove(constants.cookie_loggeduser_id);
+                    CookieRemove(constants.cookie_loggeduser_passcode);
+                }
             } else
             {
                 ViewData["userData"] = "";
             }
         }
+        
 
-        static string ComputeSha256Hash(string rawData)
+        public IActionResult Check()
         {
-            using (SHA256 sha256Hash = SHA256.Create())
-            {
-                byte[] bytes = sha256Hash.ComputeHash(System.Text.Encoding.UTF8.GetBytes(rawData));
-
-                System.Text.StringBuilder builder = new System.Text.StringBuilder();
-                for (int i = 0; i < bytes.Length; i++)
-                {
-                    builder.Append(bytes[i].ToString("x2"));
-                }
-                return builder.ToString();
-            }
+            user_init();
+            return View(_foodDeliveryContext.Userlogins.ToList());
         }
 
         void SaveToCookie(string name, string item, bool sessional)
@@ -128,37 +126,72 @@ namespace Auth_Login.Controllers
             HttpContext.Response.Cookies.Delete(name);
         }
 
+        public IActionResult Index()
+        {
+            return Redirect("Login");
+        }
+
         public async Task<IActionResult> Login(string username, string passcode, bool rememberme)
         {
-            if (CookieHave(cookie_loggeduser_id))
-                return RedirectToAction("Index", "Food");
-            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(passcode))
-                return View(new SignupFaillure());
-            var user = await _foodDeliveryContext.Userlogins.FirstOrDefaultAsync(user => user.Username.Equals(username) && user.Passcode.Equals(ComputeSha256Hash(passcode)));
-            if (user == null)
+            if (CookieHave(constants.cookie_loggeduser_id))
             {
-                return View(new SignupFaillure(username, passcode, "", "This login and/or password doesn't exist!"));
+                int id = int.Parse(GetFromCookie(constants.cookie_loggeduser_id));
+                string pass = GetFromCookie(constants.cookie_loggeduser_passcode);
+                var use = await constants.getUserById(id, pass);
+                if (use == null)
+                    return View();
+                switch (use.Status)
+                {
+                    case 3:
+                        return RedirectToAction("Index", "Food");
+                    case 2:
+                        return RedirectToAction("Index", "Cur");
+                    case 1:
+                        return RedirectToAction("Index", "User");
+                }
             }
-            SaveToCookie(cookie_loggeduser_id, user.Id.ToString(), !rememberme);
-            SaveToCookie(cookie_loggeduser_passcode, user.Passcode, !rememberme);
-            return RedirectToAction("Index", "Food");
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(passcode))
+                return View();
+            var hashed_pass = constants.ComputeSha256Hash(passcode);
+
+            Userlogin? user = await constants.getUser(username, hashed_pass);
+
+                //var user = await _foodDeliveryContext.Userlogins.FirstOrDefaultAsync(user => user.Username.Equals(username) && user.Passcode.Equals(hashed_pass));
+
+
+
+                if (user == null)
+                {
+                    ViewData["Username"] = username;
+                    return View();
+                }
+            SaveToCookie(constants.cookie_loggeduser_id, user.Id.ToString(), !rememberme);
+            SaveToCookie(constants.cookie_loggeduser_passcode, user.Passcode, !rememberme);
+            switch (user.Status) {
+                case 3:
+                    return RedirectToAction("Index", "Food");
+                case 2:
+                    return RedirectToAction("Index", "Cur");
+                case 1:
+                    return RedirectToAction("Index", "User");
+            }
+            return View();
         }
 
         public async Task<IActionResult> signout(string url)
         {
-            if (CookieHave(cookie_loggeduser_id))
-                CookieRemove(cookie_loggeduser_id);
+            if (CookieHave(constants.cookie_loggeduser_id))
+                CookieRemove(constants.cookie_loggeduser_id);
             return RedirectToAction("Login");
         }
 
-        public async Task<IActionResult> Signup(string username, string passcode, string confirm)
+        public async Task<IActionResult> Signup(string username, string passcode, string confirm, bool curier = false)
         {
-            if (CookieHave(cookie_loggeduser_id))
+            if (CookieHave(constants.cookie_loggeduser_id))
                 return RedirectToAction("Index", "Food");
             string reason = "";
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(passcode))
                 return View(new SignupFaillure());
-            Debug.WriteLine("Passcode: " + ComputeSha256Hash(passcode));
             if (passcode != confirm)
                 reason += "Password and password confirmation not the same!\n";
             var user = await _foodDeliveryContext.Userlogins.FirstOrDefaultAsync(user => user.Username.Equals(username));
@@ -167,17 +200,25 @@ namespace Auth_Login.Controllers
             
             if (reason != "")
                 return View(new SignupFaillure(username, passcode, confirm, reason));
-            user = new Food_Delivery.Userlogin()
+            user = new Userlogin()
             {
                 Username = username,
-                Passcode = ComputeSha256Hash(passcode)
+                Passcode = constants.ComputeSha256Hash(passcode),
+                Status = 1 - (curier ? 1 : 0)
             };
             _foodDeliveryContext.Add(user);
             _foodDeliveryContext.SaveChanges();
+            if (!curier) {
+                await Login(username, passcode, false);
+                return RedirectToAction("Additions");
+            }
+            return RedirectToAction("CurierInfo", new {user_id = user.Id });
+        }
 
-            await Login(username, passcode, false);
-
-            return RedirectToAction("Additions");
+        public async Task<ActionResult> CurierInfo(int user_id)
+        {
+            Userlogin? st = await _foodDeliveryContext.Userlogins.FirstOrDefaultAsync(user => user.Id ==user_id);
+            return View(st!=null? st.Status : 0);
         }
 
         public ActionResult Additions()
@@ -193,15 +234,24 @@ namespace Auth_Login.Controllers
         }
 
         [HttpPost]
-        public IActionResult Additions(string LN, string FN, string PA, string Tel, string GR, string UL, int DO, char ST, int KV)
+        public IActionResult Additions(string LN, string FN, string PA, string Tel, string GR, string UL, int DO, char ST, int KV, IFormFile image)
         {
-            int uid = int.Parse(GetFromCookie(cookie_loggeduser_id));
-            Userlogin user = _foodDeliveryContext.Userlogins.First(e => e.Id == uid);
-            Customer cus = new Customer { CustomerLastname = LN, CustomerFirstname = FN, CustomerPatronymic = PA, CustomerPhonenumber = Tel, City = GR, Street = UL, HouseNumber = (short)DO, Building = ST, Apartment = (short)KV };
-            _foodDeliveryContext.Add(cus);
-            _foodDeliveryContext.SaveChanges();
-            user.Additionalid = cus.IdCustomer;
-            _foodDeliveryContext.SaveChanges();
+            if (image != null)
+            {
+                string SavePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Cus", image.FileName);
+                using (var stream = new FileStream(SavePath, FileMode.Create))
+                {
+                    image.CopyTo(stream);
+                }
+
+                int uid = int.Parse(GetFromCookie(constants.cookie_loggeduser_id));
+                Userlogin user = _foodDeliveryContext.Userlogins.First(e => e.Id == uid);
+                Customer cus = new Customer { CustomerLastname = LN, CustomerFirstname = FN, CustomerPatronymic = PA, CustomerPhonenumber = Tel, City = GR, Street = UL, HouseNumber = (short)DO, Building = ST, Apartment = (short)KV, Foto = image.FileName };
+                _foodDeliveryContext.Add(cus);
+                _foodDeliveryContext.SaveChanges();
+                user.Additionalid = cus.IdCustomer;
+                _foodDeliveryContext.SaveChanges();
+            }
             return RedirectToAction("Cus", "Food");
         }
 

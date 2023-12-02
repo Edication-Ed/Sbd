@@ -1,211 +1,295 @@
 {
   "Files": [
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Food_Delivery.bundle.scp.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Food_Delivery.bundle.scp.css",
       "PackagePath": "staticwebassets\\Food_Delivery.bundle.scp.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\css\\Style.css",
+      "PackagePath": "staticwebassets\\css\\Style.css"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\OFL.txt",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\OFL.txt",
       "PackagePath": "staticwebassets\\fonts\\PT_Sans\\OFL.txt"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Bold.ttf",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Bold.ttf",
       "PackagePath": "staticwebassets\\fonts\\PT_Sans\\PTSans-Bold.ttf"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-BoldItalic.ttf",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\fonts\\PT_Sans\\PTSans-BoldItalic.ttf"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Italic.ttf",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Italic.ttf",
       "PackagePath": "staticwebassets\\fonts\\PT_Sans\\PTSans-Italic.ttf"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Regular.ttf",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\fonts\\PT_Sans\\PTSans-Regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\PT_Sans\\PTSans-Regular.ttf"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CurFoto.png",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CurFoto.png",
       "PackagePath": "staticwebassets\\img\\CurFoto.png"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CusIc.png",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cur\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\Cur\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\CusIc.png",
       "PackagePath": "staticwebassets\\img\\CusIc.png"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Logo.png",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\Cus\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\Cus\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\Cus\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\492acf9f547a35e10bd56a5869110f1a-333358068 — копия.jpg",
+      "PackagePath": "staticwebassets\\img\\Cus\\492acf9f547a35e10bd56a5869110f1a-333358068 — копия.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\IMG_20221204_164924.jpg",
+      "PackagePath": "staticwebassets\\img\\Cus\\IMG_20221204_164924.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\IMG_4567.JPG",
+      "PackagePath": "staticwebassets\\img\\Cus\\IMG_4567.JPG"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\hamis.jpg",
+      "PackagePath": "staticwebassets\\img\\Cus\\hamis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Cus\\soul_stone_thumb.png",
+      "PackagePath": "staticwebassets\\img\\Cus\\soul_stone_thumb.png"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Logo.png",
       "PackagePath": "staticwebassets\\img\\Logo.png"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Watermark.png",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Logo1.png",
+      "PackagePath": "staticwebassets\\img\\Logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Shest.png",
+      "PackagePath": "staticwebassets\\img\\Shest.png"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\Watermark.png",
       "PackagePath": "staticwebassets\\img\\Watermark.png"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\dish.jpg",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\bin.png",
+      "PackagePath": "staticwebassets\\img\\bin.png"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\dish.jpg",
       "PackagePath": "staticwebassets\\img\\dish.jpg"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\eye-closed.svg",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\eye-closed.svg",
       "PackagePath": "staticwebassets\\img\\eye-closed.svg"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\eye.svg",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\eye.svg",
       "PackagePath": "staticwebassets\\img\\eye.svg"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermark50.png",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\foods\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\foods\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\foods\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\foods\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\foods\\3.jpeg",
+      "PackagePath": "staticwebassets\\img\\foods\\3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\foods\\4.jpeg",
+      "PackagePath": "staticwebassets\\img\\foods\\4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\foods\\5.jpeg",
+      "PackagePath": "staticwebassets\\img\\foods\\5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\foods\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\foods\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\foods\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\foods\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\logout.png",
+      "PackagePath": "staticwebassets\\img\\logout.png"
+    },
+    {
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermark50.png",
       "PackagePath": "staticwebassets\\img\\watermark50.png"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermarkd.png",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\img\\watermarkd.png",
       "PackagePath": "staticwebassets\\img\\watermarkd.png"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Programmes\\SUBD\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\BulMen\\Desktop\\Web-технологии\\Bu1Men-Git.github.io\\Sbd\\Food_Delivery(WebApp)\\Food_Delivery\\Food_Delivery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {

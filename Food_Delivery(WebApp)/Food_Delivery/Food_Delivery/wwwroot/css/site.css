@@ -35,3 +35,54 @@ h1 {
 .footer{
     margin-top: auto
 }
+
+.btn-color {
+    background-color: #0e1c36;
+    color: #fff;
+}
+
+.profile-image-pic {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.cardbody-color {
+    background-color: #ebf2fa;
+}
+
+a {
+    text-decoration: none;
+}
+.box-with-shadow:hover {
+    box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, .2);
+}
+
+.w-90{
+    width: 90%;
+}
+.top-0{
+    margin-top: 3%;
+}
+.line {
+    border-top: 1px solid #8c8b8b;
+}
+.line2 {
+    border-top: 3px double #8c8b8b;
+}
+
+.print {
+    border: 2px solid black;
+}
+
+@media print {
+    body {
+        visibility: hidden;
+    }
+
+    .print {
+        visibility: visible;
+        height: auto;
+        min-width: 95%;
+    }
+}

@@ -5,9 +5,10 @@ namespace Food_Delivery
 {
     public class Program
     {
+        public static WebApplicationBuilder builder = null;
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
+            builder = WebApplication.CreateBuilder(args);
             string con = builder.Configuration.GetConnectionString("DefoultConnection");
             builder.Services.AddDbContext<FoodDeliveryContext>(option => option.UseNpgsql(con));
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);

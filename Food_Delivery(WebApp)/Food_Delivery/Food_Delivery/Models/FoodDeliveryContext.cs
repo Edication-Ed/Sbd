@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Food_Delivery.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Food_Delivery;
+namespace Food_Delivery.Models;
 
 public partial class FoodDeliveryContext : DbContext
 {
@@ -36,7 +35,7 @@ public partial class FoodDeliveryContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=Food_Delivery;Username=postgres;Password=1234");
+        => optionsBuilder.UseNpgsql(Program.builder.Configuration.GetConnectionString("DefoultConnection"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -62,12 +61,15 @@ public partial class FoodDeliveryContext : DbContext
                 .HasMaxLength(80)
                 .HasColumnName("curier_patronymic");
             entity.Property(e => e.CurierPhonenumber)
-                .HasMaxLength(11)
+                .HasMaxLength(12)
                 .IsFixedLength()
                 .HasColumnName("curier_phonenumber");
             entity.Property(e => e.DeliveryType)
                 .HasMaxLength(10)
                 .HasColumnName("delivery_type");
+            entity.Property(e => e.Foto)
+                .HasMaxLength(30)
+                .HasColumnName("foto");
             entity.Property(e => e.PassportDepartment)
                 .HasMaxLength(7)
                 .IsFixedLength()
@@ -113,9 +115,12 @@ public partial class FoodDeliveryContext : DbContext
                 .HasMaxLength(80)
                 .HasColumnName("customer_patronymic");
             entity.Property(e => e.CustomerPhonenumber)
-                .HasMaxLength(11)
+                .HasMaxLength(12)
                 .IsFixedLength()
                 .HasColumnName("customer_phonenumber");
+            entity.Property(e => e.Foto)
+                .HasMaxLength(30)
+                .HasColumnName("foto");
             entity.Property(e => e.HouseNumber).HasColumnName("house_number");
             entity.Property(e => e.Street)
                 .HasMaxLength(50)
@@ -169,6 +174,9 @@ public partial class FoodDeliveryContext : DbContext
             entity.Property(e => e.DishName)
                 .HasMaxLength(80)
                 .HasColumnName("dish_name");
+            entity.Property(e => e.Foto)
+                .HasMaxLength(30)
+                .HasColumnName("foto");
         });
 
         modelBuilder.Entity<DishOrderList>(entity =>
@@ -245,6 +253,7 @@ public partial class FoodDeliveryContext : DbContext
             entity.Property(e => e.CustomerPatronymic)
                 .HasMaxLength(80)
                 .HasColumnName("customer_patronymic");
+            entity.Property(e => e.IdCustomer).HasColumnName("id_customer");
             entity.Property(e => e.IdOrders).HasColumnName("id_orders");
             entity.Property(e => e.TimeOrdered)
                 .HasColumnType("timestamp without time zone")

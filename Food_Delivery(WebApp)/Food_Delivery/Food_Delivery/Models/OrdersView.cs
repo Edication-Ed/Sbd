@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Food_Delivery;
+namespace Food_Delivery.Models;
 
 public partial class OrdersView
 {
     public int? IdOrders { get; set; }
+
+    public int? IdCustomer { get; set; }
 
     public string? CustomerLastname { get; set; }
 

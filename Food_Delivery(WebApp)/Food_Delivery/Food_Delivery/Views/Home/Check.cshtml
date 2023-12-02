@@ -1,0 +1,34 @@
+﻿@model List<Userlogin>
+<html>
+<head>
+
+ <link rel="stylesheet" href="~/css/Style.css" />
+</head>
+
+<body>
+<div class="login">
+    <table>
+        <tr>
+                <td width="32">User ID</td>
+                <td width="128">Username</td>
+                <td width="256">Hashed password</td>
+                <td width="16">Account state</td>
+        </tr>
+        @foreach (var use in Model)
+        {
+            <tr>
+                <td>@use.Id</td>
+                <td>@use.Username</td>
+                <td>
+                    <details>
+                        <summary>Показать</summary>
+
+                        <p>@use.Passcode</p>
+                    </details>
+                </td>
+            </tr>
+        }
+    </table>
+</div> 
+</body>
+</html>
