@@ -63,7 +63,7 @@ namespace Food_Delivery.Models
             return user;
         }
 
-        public static async Task<Userlogin?> getUserById(int id, String hashed_pass) {
+        public static async Task<Userlogin?> getUserById(String id, String hashed_pass) {
             Userlogin user = new();
 
             var con_str = Program.builder.Configuration.GetConnectionString("DefoultConnection");

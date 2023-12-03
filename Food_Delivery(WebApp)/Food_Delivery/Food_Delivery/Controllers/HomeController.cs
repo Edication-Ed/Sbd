@@ -69,7 +69,7 @@ namespace Auth_Login.Controllers
         {
             if (CookieHave(constants.cookie_loggeduser_id))
             {
-                int id = int.Parse(GetFromCookie(constants.cookie_loggeduser_id));
+                string id = GetFromCookie(constants.cookie_loggeduser_id);
                 string pass = GetFromCookie(constants.cookie_loggeduser_passcode);
                 Userlogin? user = await constants.getUserById(id, pass);
                 if (user != null)
@@ -135,7 +135,7 @@ namespace Auth_Login.Controllers
         {
             if (CookieHave(constants.cookie_loggeduser_id))
             {
-                int id = int.Parse(GetFromCookie(constants.cookie_loggeduser_id));
+                string id = GetFromCookie(constants.cookie_loggeduser_id);
                 string pass = GetFromCookie(constants.cookie_loggeduser_passcode);
                 var use = await constants.getUserById(id, pass);
                 if (use == null)
